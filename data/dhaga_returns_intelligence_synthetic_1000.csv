@@ -1,0 +1,1001 @@
+return_id,order_id,sku,product_name,category,vendor,size_ordered,return_reason_dropdown,return_reason_text,return_date,expected_primary_reason,expected_sub_reason,expected_body_area
+R0001,ORD878152,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Other,photo mein colour alag tha,2026-09-21,appearance_issue,print_mismatch,none
+R0002,ORD634864,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Colour Mismatch,,2026-07-27,appearance_issue,print_mismatch,none
+R0003,ORD826952,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Damaged/Defective,,2026-04-25,damaged_defective,defect,none
+R0004,ORD455816,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Other,shoulder tight haii,2026-05-01,fit,too_small,shoulder
+R0005,ORD765223,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Other,hole tha product mein,2026-05-12,damaged_defective,hole,none
+R0006,ORD218879,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Other,fit small at chest yaar,2026-07-11,fit,too_small,chest
+R0007,ORD563405,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Quality/Fabric,cloth itchy hai yaar,2026-06-27,quality_issue,comfort,none
+R0008,ORD537464,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Other,pasand nahi aya,2026-04-14,changed_mind,preference_or_no_longer_needed,none
+R0009,ORD818968,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Other,length short hai,2026-04-01,fit,too_short,length
+R0010,ORD322800,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,shoulder fit small,2026-04-10,fit,too_small,shoulder
+R0011,ORD131163,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Other,cloth itchy hai,2026-04-24,quality_issue,fabric_quality,none
+R0012,ORD678578,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Other,not needed now,2026-05-04,changed_mind,preference_or_no_longer_needed,none
+R0013,ORD643171,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Colour Mismatch,color bilkul different aya,2026-08-13,appearance_issue,shade_mismatch,none
+R0014,ORD239611,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,chest bahut tight tha,2026-08-08,fit,too_small,chest
+R0015,ORD926471,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Size/Fit,"upper body tight, especially chest",2026-07-21,fit,too_small,chest
+R0016,ORD465236,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,2-3Y,Size/Fit,waist fitting choti hai,2026-06-14,fit,too_small,waist
+R0017,ORD856082,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XXL,Damaged/Defective,,2026-07-16,damaged_defective,stitching,none
+R0018,ORD875111,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Damaged/Defective,,2026-06-16,damaged_defective,button,none
+R0019,ORD212608,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Other,shoulder tight hai,2026-05-07,fit,too_small,shoulder
+R0020,ORD690599,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,6-7Y,Size/Fit,,2026-04-15,fit,too_small,sleeves
+R0021,ORD290062,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,chest tight ho raha tha,2026-09-02,fit,too_small,chest
+R0022,ORD120417,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Damaged/Defective,,2026-08-14,damaged_defective,stitching,none
+R0023,ORD572892,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Size/Fit,shoulder fitting badi he,2026-08-18,fit,too_large,shoulder
+R0024,ORD776318,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Other,mummy ko pasand nahi aya,2026-06-20,changed_mind,preference_or_no_longer_needed,none
+R0025,ORD126074,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Other,upper body bahut loose,2026-08-12,fit,too_large,chest
+R0026,ORD813298,KID-450,Kids Festive Set,Kidswear,Vendor_12,12-13Y,Size/Fit,,2026-06-04,fit,too_small,waist
+R0027,ORD229373,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Damaged/Defective,size hi wrong bheja,2026-09-17,damaged_defective,defect,none
+R0028,ORD594480,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Wrong Item,,2026-04-16,wrong_item,wrong_product_or_variant,none
+R0029,ORD629902,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Damaged/Defective,hole tha product mein,2026-04-08,damaged_defective,defect,none
+R0030,ORD527852,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Other,cloth itchy hai,2026-09-16,quality_issue,material_mismatch,none
+R0031,ORD126354,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,6-7Y,Delivery Issue,,2026-08-12,delivery_issue,package_damage,none
+R0032,ORD373897,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XXL,Other,waist se loose hai,2026-08-12,fit,too_large,waist
+R0033,ORD697085,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Size/Fit,,2026-07-04,fit,too_short,length
+R0034,ORD181881,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,design photo se match nahi karta,2026-05-16,appearance_issue,colour_mismatch,none
+R0035,ORD157458,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Colour Mismatch,,2026-07-16,appearance_issue,colour_mismatch,none
+R0036,ORD280383,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XS,Product Not as Expected,"model pe different lag raha tha, actual look alag hai",2026-09-11,product_not_as_expected,transparency,none
+R0037,ORD982755,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XXL,Product Not as Expected,,2026-09-11,product_not_as_expected,transparency,none
+R0038,ORD963866,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Other,length short hai,2026-09-19,fit,too_short,length
+R0039,ORD367676,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Damaged/Defective,,2026-04-21,damaged_defective,hole,none
+R0040,ORD739618,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Quality/Fabric,,2026-08-01,quality_issue,comfort,none
+R0041,ORD940301,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Wrong Item,,2026-07-05,wrong_item,wrong_product_or_variant,none
+R0042,ORD992210,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,6-7Y,Wrong Item,,2026-08-08,wrong_item,wrong_product_or_variant,none
+R0043,ORD724981,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,8-9Y,Size/Fit,,2026-09-24,fit,too_short,length
+R0044,ORD753853,KID-450,Kids Festive Set,Kidswear,Vendor_12,8-9Y,Other,length jyada hai mere liye,2026-07-27,fit,too_long,length
+R0045,ORD735270,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Wrong Item,,2026-06-12,wrong_item,wrong_product_or_variant,none
+R0046,ORD385701,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Delivery Issue,delivery delay hua,2026-04-04,delivery_issue,package_damage,none
+R0047,ORD235056,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Colour Mismatch,,2026-05-21,appearance_issue,shade_mismatch,none
+R0048,ORD528493,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XS,Changed Mind,,2026-09-07,changed_mind,preference_or_no_longer_needed,none
+R0049,ORD874355,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Quality/Fabric,material cheap feel ho raha,2026-07-12,quality_issue,material_mismatch,none
+R0050,ORD590139,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XXL,Other,loose around waist,2026-09-07,fit,too_large,waist
+R0051,ORD879658,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,L,Other,expected date miss ho gaya yaar,2026-09-06,delivery_issue,package_damage,none
+R0052,ORD266687,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Wrong Item,different colour delivered,2026-09-18,wrong_item,wrong_product_or_variant,none
+R0053,ORD671987,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Colour Mismatch,,2026-04-27,appearance_issue,print_mismatch,none
+R0054,ORD955424,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Other,delivery late thi,2026-08-17,delivery_issue,package_damage,none
+R0055,ORD362627,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XL,Wrong Item,different colour delivered pls,2026-07-08,wrong_item,wrong_product_or_variant,none
+R0056,ORD772205,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Damaged/Defective,,2026-06-03,damaged_defective,button,none
+R0057,ORD107766,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,S,Other,mere liye too short,2026-09-07,fit,too_short,length
+R0058,ORD142261,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Damaged/Defective,piece damaged tha,2026-08-25,damaged_defective,hole,none
+R0059,ORD819677,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,shoulder bahut snug,2026-06-15,fit,too_small,shoulder
+R0060,ORD589894,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Damaged/Defective,wrong item mila,2026-04-08,damaged_defective,stitching,none
+R0061,ORD611700,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Other,length jyada hai mere liye,2026-05-12,fit,too_long,length
+R0062,ORD901298,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Size/Fit,waist fitting badi haii,2026-04-08,fit,too_large,waist
+R0063,ORD599718,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Other,wrong colour delivered,2026-06-20,wrong_item,wrong_product_or_variant,none
+R0064,ORD455160,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Other,wash ke pehle hi rough feel,2026-04-22,quality_issue,comfort,none
+R0065,ORD190880,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Changed Mind,,2026-05-20,changed_mind,preference_or_no_longer_needed,none
+R0066,ORD764852,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Other,shoulder fitting badi hai,2026-07-14,fit,too_large,shoulder
+R0067,ORD628160,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Other,dusra product bhej diya,2026-08-06,wrong_item,wrong_product_or_variant,none
+R0068,ORD836590,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Damaged/Defective,,2026-07-01,damaged_defective,defect,none
+R0069,ORD621259,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Size/Fit,size chota he chest pe,2026-04-09,fit,too_small,chest
+R0070,ORD965849,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Other,upper body bahut loose,2026-07-12,fit,too_large,chest
+R0071,ORD496065,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,8-9Y,Size/Fit,shoulder bahut snug,2026-07-05,fit,too_small,shoulder
+R0072,ORD329127,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,4-5Y,Colour Mismatch,,2026-06-01,appearance_issue,colour_mismatch,none
+R0073,ORD112055,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Changed Mind,,2026-08-21,changed_mind,preference_or_no_longer_needed,none
+R0074,ORD400872,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,wash ke pehle hi rough feel,2026-06-12,quality_issue,fabric_quality,none
+R0075,ORD229588,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XXL,Damaged/Defective,,2026-06-14,damaged_defective,button,none
+R0076,ORD301780,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,12-13Y,Size/Fit,,2026-04-15,fit,too_small,chest
+R0077,ORD133389,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,kapda acha nahi laga,2026-08-31,quality_issue,comfort,none
+R0078,ORD155029,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Other,length jyada hai mere liye,2026-09-05,fit,too_long,length
+R0079,ORD458821,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Other,upper body bahut loose,2026-08-17,fit,too_large,chest
+R0080,ORD845585,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,S,Other,mere liye too short,2026-08-19,fit,too_short,length
+R0081,ORD488192,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,chest se tight hai,2026-09-25,fit,too_small,chest
+R0082,ORD120866,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Changed Mind,mummy ko pasand nahi aya,2026-06-11,changed_mind,preference_or_no_longer_needed,none
+R0083,ORD414011,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XXL,Other,delivery delay hua,2026-04-16,delivery_issue,late_delivery,none
+R0084,ORD431987,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,4-5Y,Other,too long for my height,2026-07-23,fit,too_long,length
+R0085,ORD278027,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Delivery Issue,,2026-06-14,delivery_issue,late_delivery,none
+R0086,ORD952741,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XS,Colour Mismatch,online shade aur tha,2026-04-28,appearance_issue,shade_mismatch,none
+R0087,ORD694370,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Other,"model pe different lag raha tha, actual look alag hai",2026-05-11,product_not_as_expected,style_mismatch,none
+R0088,ORD722913,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Size/Fit,,2026-06-21,fit,too_large,shoulder
+R0089,ORD555687,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Size/Fit,too long for my height,2026-04-27,fit,too_long,length
+R0090,ORD862183,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Other,chest area mein bilkul space nahi,2026-09-09,fit,too_small,chest
+R0091,ORD295436,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Damaged/Defective,,2026-04-17,damaged_defective,defect,none
+R0092,ORD878531,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,2-3Y,Other,too long for my height,2026-08-12,fit,too_long,length
+R0093,ORD380177,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Other,material cheap feel ho raha,2026-06-29,quality_issue,fabric_quality,none
+R0094,ORD543493,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,shoulder loose hai,2026-05-27,fit,too_large,shoulder
+R0095,ORD241903,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,4-5Y,Damaged/Defective,,2026-06-09,damaged_defective,zip,none
+R0096,ORD997419,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Other,bahut chota length,2026-08-28,fit,too_short,length
+R0097,ORD361635,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Other,sleeve opening chota hai,2026-05-23,fit,too_small,sleeves
+R0098,ORD588408,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Colour Mismatch,,2026-08-31,appearance_issue,shade_mismatch,none
+R0099,ORD178055,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XL,Wrong Item,size wrong bheja,2026-05-22,wrong_item,wrong_product_or_variant,none
+R0100,ORD960468,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Size/Fit,chest tight ho raha tha,2026-07-31,fit,too_small,chest
+R0101,ORD823360,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Other,material comfortable nahi,2026-06-17,quality_issue,material_mismatch,none
+R0102,ORD459198,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Damaged/Defective,button missing,2026-08-16,damaged_defective,button,none
+R0103,ORD430339,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Quality/Fabric,material cheap feel ho raha,2026-05-20,quality_issue,fabric_quality,none
+R0104,ORD646617,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Size/Fit,,2026-07-18,fit,too_small,waist
+R0105,ORD739238,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Other,quality photo jaisa nahi,2026-04-23,quality_issue,fabric_quality,none
+R0106,ORD976943,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Other,kandhe pe kheench raha hai,2026-04-21,fit,too_small,shoulder
+R0107,ORD483498,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Quality/Fabric,fabric quality poor,2026-04-24,quality_issue,material_mismatch,none
+R0108,ORD176330,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Wrong Item,,2026-05-07,wrong_item,wrong_product_or_variant,none
+R0109,ORD945197,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Changed Mind,,2026-08-10,changed_mind,preference_or_no_longer_needed,none
+R0110,ORD262957,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XXL,Other,too long for my height,2026-04-01,fit,too_long,length
+R0111,ORD235021,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Size/Fit,,2026-04-02,fit,too_large,waist
+R0112,ORD604966,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Other,kapda acha nahi laga,2026-04-28,quality_issue,fabric_quality,none
+R0113,ORD816615,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Quality/Fabric,,2026-08-10,quality_issue,comfort,none
+R0114,ORD418555,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Colour Mismatch,picture mein bright tha actual dull hai,2026-06-19,appearance_issue,colour_mismatch,none
+R0115,ORD154196,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,S,Quality/Fabric,,2026-04-16,quality_issue,comfort,none
+R0116,ORD561462,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Delivery Issue,,2026-06-18,delivery_issue,late_delivery,none
+R0117,ORD378779,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Other,size okay but waist tight,2026-07-03,fit,too_small,waist
+R0118,ORD157062,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Size/Fit,,2026-07-02,fit,too_large,waist
+R0119,ORD673433,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XL,Changed Mind,changed my mind,2026-06-04,changed_mind,preference_or_no_longer_needed,none
+R0120,ORD579108,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Product Not as Expected,,2026-05-08,product_not_as_expected,transparency,none
+R0121,ORD136322,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Delivery Issue,,2026-05-10,delivery_issue,late_delivery,none
+R0122,ORD728588,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Other,fabric dekh ke lag raha wash mein shrink hoga,2026-06-01,product_not_as_expected,shrinkage_concern,none
+R0123,ORD618661,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Size/Fit,,2026-09-14,fit,too_large,chest
+R0124,ORD991969,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XS,Other,piece damaged tha,2026-05-10,damaged_defective,hole,none
+R0125,ORD697519,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XS,Other,sleeve opening chota hai,2026-07-02,fit,too_small,sleeves
+R0126,ORD788828,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Damaged/Defective,,2026-04-27,damaged_defective,defect,none
+R0127,ORD663741,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Other,chest fit too big,2026-09-10,fit,too_large,chest
+R0128,ORD992942,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,S,Wrong Item,,2026-08-14,wrong_item,wrong_product_or_variant,none
+R0129,ORD726593,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Damaged/Defective,,2026-05-08,damaged_defective,button,none
+R0130,ORD471719,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Quality/Fabric,cloth itchy hai,2026-09-21,quality_issue,comfort,none
+R0131,ORD607408,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Damaged/Defective,button missing,2026-08-16,damaged_defective,zip,none
+R0132,ORD868725,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,S,Product Not as Expected,,2026-05-08,product_not_as_expected,style_mismatch,none
+R0133,ORD200189,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Quality/Fabric,material comfortable nahi,2026-05-28,quality_issue,fabric_quality,none
+R0134,ORD679639,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,L,Wrong Item,,2026-06-05,wrong_item,wrong_product_or_variant,none
+R0135,ORD936849,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Changed Mind,,2026-06-03,changed_mind,preference_or_no_longer_needed,none
+R0136,ORD597652,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Colour Mismatch,,2026-08-21,appearance_issue,shade_mismatch,none
+R0137,ORD666509,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Damaged/Defective,,2026-09-05,damaged_defective,defect,none
+R0138,ORD731663,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Other,colour mismatch,2026-08-20,appearance_issue,shade_mismatch,none
+R0139,ORD481833,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XL,Delivery Issue,,2026-05-12,delivery_issue,late_delivery,none
+R0140,ORD373369,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Delivery Issue,,2026-04-27,delivery_issue,late_delivery,none
+R0141,ORD619336,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XXL,Changed Mind,,2026-09-09,changed_mind,preference_or_no_longer_needed,none
+R0142,ORD443825,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Other,kapda acha nahi laga,2026-05-31,quality_issue,fabric_quality,none
+R0143,ORD778012,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,2-3Y,Size/Fit,,2026-04-09,fit,too_short,length
+R0144,ORD733172,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Changed Mind,,2026-07-24,changed_mind,preference_or_no_longer_needed,none
+R0145,ORD556155,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Colour Mismatch,,2026-04-22,appearance_issue,shade_mismatch,none
+R0146,ORD131004,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,8-9Y,Size/Fit,,2026-04-11,fit,too_long,length
+R0147,ORD608520,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Colour Mismatch,,2026-05-10,appearance_issue,shade_mismatch,none
+R0148,ORD986948,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Other,design photo se match nahi karta,2026-05-27,appearance_issue,colour_mismatch,none
+R0149,ORD516410,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,L,Other,bohot lamba hai,2026-05-10,fit,too_long,length
+R0150,ORD524298,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Other,wrong item mila,2026-05-10,wrong_item,wrong_product_or_variant,none
+R0151,ORD363191,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,L,Other,okay nahi laga,2026-06-28,unclear,insufficient_information,none
+R0152,ORD796389,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XL,Wrong Item,,2026-07-13,wrong_item,wrong_product_or_variant,none
+R0153,ORD712956,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Product Not as Expected,office wear socha tha but too casual,2026-05-29,product_not_as_expected,style_mismatch,none
+R0154,ORD158227,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Quality/Fabric,,2026-08-06,quality_issue,fabric_quality,none
+R0155,ORD345771,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Other,not as expected,2026-07-28,unclear,insufficient_information,none
+R0156,ORD319781,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XXL,Other,package damaged in delivery,2026-06-21,delivery_issue,package_damage,none
+R0157,ORD542037,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Size/Fit,length expected se zyada,2026-07-20,fit,too_long,length
+R0158,ORD682473,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Damaged/Defective,zip broken he,2026-04-06,damaged_defective,zip,none
+R0159,ORD603595,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Wrong Item,,2026-07-05,wrong_item,wrong_product_or_variant,none
+R0160,ORD875811,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Changed Mind,,2026-04-16,changed_mind,preference_or_no_longer_needed,none
+R0161,ORD885174,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Damaged/Defective,,2026-04-07,damaged_defective,stitching,none
+R0162,ORD781381,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Other,bahut transparent haii,2026-09-12,product_not_as_expected,transparency,none
+R0163,ORD224485,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Quality/Fabric,,2026-04-28,quality_issue,fabric_quality,none
+R0164,ORD540129,KID-450,Kids Festive Set,Kidswear,Vendor_12,8-9Y,Other,ab nahi chahiye,2026-04-20,changed_mind,preference_or_no_longer_needed,none
+R0165,ORD260482,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Wrong Item,size wrong bheja,2026-06-03,wrong_item,wrong_product_or_variant,none
+R0166,ORD462597,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Other,sleeves tight hai,2026-05-02,fit,too_small,sleeves
+R0167,ORD295222,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,shoulder fit small!!!,2026-09-20,fit,too_small,shoulder
+R0168,ORD447577,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Size/Fit,sleeves tight hai,2026-09-04,fit,too_small,sleeves
+R0169,ORD481132,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Other,M liya but chest fit nahi hua,2026-05-10,fit,too_small,chest
+R0170,ORD438306,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,M,Other,mere liye too short,2026-05-04,fit,too_short,length
+R0171,ORD741598,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Other,fit loose on chest,2026-08-16,fit,too_large,chest
+R0172,ORD963611,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Delivery Issue,late delivery so returning,2026-06-14,delivery_issue,package_damage,none
+R0173,ORD522695,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Changed Mind,pasand nahi aya,2026-05-16,changed_mind,preference_or_no_longer_needed,none
+R0174,ORD641184,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Damaged/Defective,,2026-04-01,damaged_defective,hole,none
+R0175,ORD451535,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Size/Fit,,2026-05-23,fit,too_long,length
+R0176,ORD389421,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Delivery Issue,,2026-08-20,delivery_issue,package_damage,none
+R0177,ORD545466,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Product Not as Expected,bahut transparent hai,2026-07-19,product_not_as_expected,occasion_unsuitable,none
+R0178,ORD262969,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,pehenne mein comfortable nahi,2026-07-01,product_not_as_expected,comfort,none
+R0179,ORD531380,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Changed Mind,look suit nahi kiya,2026-08-10,changed_mind,preference_or_no_longer_needed,none
+R0180,ORD757559,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Changed Mind,,2026-05-18,changed_mind,preference_or_no_longer_needed,none
+R0181,ORD487994,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Other,kapda bahut patla hai,2026-07-19,quality_issue,fabric_quality,none
+R0182,ORD421213,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XL,Size/Fit,shoulder fit small,2026-05-04,fit,too_small,shoulder
+R0183,ORD916869,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Other,colour mismatch,2026-05-18,appearance_issue,print_mismatch,none
+R0184,ORD622726,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Quality/Fabric,wash ke pehle hi rough feel,2026-05-11,quality_issue,comfort,none
+R0185,ORD150161,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XL,Other,material comfortable nahi!!!,2026-07-27,quality_issue,fabric_quality,none
+R0186,ORD383240,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Size/Fit,size bada pad gaya waist mein,2026-06-08,fit,too_large,waist
+R0187,ORD585818,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Other,quality?,2026-05-22,unclear,insufficient_information,none
+R0188,ORD927522,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Damaged/Defective,,2026-08-12,damaged_defective,stitching,none
+R0189,ORD894066,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Product Not as Expected,office wear socha tha but too casual,2026-05-03,product_not_as_expected,style_mismatch,none
+R0190,ORD389476,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Quality/Fabric,,2026-06-04,quality_issue,comfort,none
+R0191,ORD786036,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Other,shoulder tight haii,2026-05-24,fit,too_small,shoulder
+R0192,ORD552699,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Other,arms move nahi ho raha properly,2026-05-14,fit,too_small,shoulder
+R0193,ORD646412,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Colour Mismatch,,2026-05-05,appearance_issue,print_mismatch,none
+R0194,ORD600765,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Other,kandhe pe kheench raha hai!!!,2026-04-29,fit,too_small,shoulder
+R0195,ORD606732,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Wrong Item,,2026-04-14,wrong_item,wrong_product_or_variant,none
+R0196,ORD226357,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Other,package damaged in delivery,2026-09-10,delivery_issue,late_delivery,none
+R0197,ORD836313,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Other,bahut chota length,2026-08-02,fit,too_short,length
+R0198,ORD767860,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XL,Damaged/Defective,,2026-05-19,damaged_defective,hole,none
+R0199,ORD577992,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,material comfortable nahi,2026-06-27,quality_issue,material_mismatch,none
+R0200,ORD342535,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Delivery Issue,delivery delay hua,2026-09-03,delivery_issue,package_damage,none
+R0201,ORD921936,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Other,chest fit too big,2026-06-16,fit,too_large,chest
+R0202,ORD939084,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,not as expected pls,2026-08-01,unclear,insufficient_information,none
+R0203,ORD342778,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Other,expected date miss ho gaya,2026-09-11,delivery_issue,late_delivery,none
+R0204,ORD472499,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Product Not as Expected,photo mein jo look tha actual mein waise nahi,2026-05-25,product_not_as_expected,occasion_unsuitable,none
+R0205,ORD527834,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Other,chest fit too big pls,2026-09-22,fit,too_large,chest
+R0206,ORD996931,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,L,Quality/Fabric,,2026-05-24,quality_issue,material_mismatch,none
+R0207,ORD745038,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Colour Mismatch,print different lag raha,2026-04-15,appearance_issue,shade_mismatch,none
+R0208,ORD838971,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Other,size okay but waist tight,2026-08-28,fit,too_small,waist
+R0209,ORD776344,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Other,colour mismatch,2026-06-16,appearance_issue,shade_mismatch,none
+R0210,ORD967507,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Damaged/Defective,button missing,2026-06-19,damaged_defective,zip,none
+R0211,ORD550362,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XS,Size/Fit,,2026-09-02,fit,too_long,length
+R0212,ORD347863,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Product Not as Expected,,2026-05-27,product_not_as_expected,style_mismatch,none
+R0213,ORD784995,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,S,Wrong Item,,2026-06-13,wrong_item,wrong_product_or_variant,none
+R0214,ORD923536,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Wrong Item,,2026-05-05,wrong_item,wrong_product_or_variant,none
+R0215,ORD691273,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,12-13Y,Size/Fit,kamr bahut loose,2026-04-06,fit,too_large,waist
+R0216,ORD471506,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XL,Colour Mismatch,picture mein bright tha actual dull hai,2026-08-24,appearance_issue,print_mismatch,none
+R0217,ORD216340,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Other,chest area mein bilkul space nahi,2026-04-20,fit,too_small,chest
+R0218,ORD740053,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Product Not as Expected,fabric dekh ke lag raha wash mein shrink hoga,2026-09-06,product_not_as_expected,style_mismatch,none
+R0219,ORD217532,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Other,bahut late aya,2026-07-31,delivery_issue,late_delivery,none
+R0220,ORD309068,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,4-5Y,Other,mummy ko pasand nahi aya,2026-08-16,changed_mind,preference_or_no_longer_needed,none
+R0221,ORD365050,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Damaged/Defective,,2026-06-03,damaged_defective,stitching,none
+R0222,ORD669848,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Other,chest tight ho raha tha,2026-05-19,fit,too_small,chest
+R0223,ORD188680,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,6-7Y,Quality/Fabric,cloth itchy hai,2026-05-01,quality_issue,material_mismatch,none
+R0224,ORD163112,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Damaged/Defective,,2026-07-23,damaged_defective,defect,none
+R0225,ORD131494,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Other,button missing!!!,2026-05-10,damaged_defective,hole,none
+R0226,ORD853234,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Size/Fit,,2026-07-11,fit,too_long,length
+R0227,ORD315909,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Wrong Item,different colour delivered,2026-06-28,wrong_item,wrong_product_or_variant,none
+R0228,ORD349453,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Changed Mind,,2026-04-01,changed_mind,preference_or_no_longer_needed,none
+R0229,ORD425173,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XS,Other,chest se tight hai,2026-04-26,fit,too_small,chest
+R0230,ORD653338,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Damaged/Defective,,2026-04-10,damaged_defective,hole,none
+R0231,ORD520418,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Size/Fit,,2026-05-18,fit,too_small,chest
+R0232,ORD983238,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Other,return karna hai,2026-08-11,unclear,insufficient_information,none
+R0233,ORD188730,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Other,chest fit too big,2026-09-16,fit,too_large,chest
+R0234,ORD337908,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Size/Fit,chest tight ho raha tha,2026-06-11,fit,too_small,chest
+R0235,ORD266450,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Other,shoulder fit small,2026-06-21,fit,too_small,shoulder
+R0236,ORD701689,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,kandhe pe kheench raha hai,2026-06-24,fit,too_small,shoulder
+R0237,ORD890649,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Colour Mismatch,actual colour darker h,2026-04-13,appearance_issue,print_mismatch,none
+R0238,ORD673544,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Other,office wear socha tha but too casual,2026-07-08,product_not_as_expected,style_mismatch,none
+R0239,ORD691165,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,S,Other,delivery late thi,2026-06-24,delivery_issue,late_delivery,none
+R0240,ORD565594,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Other,not as expected,2026-04-16,unclear,insufficient_information,none
+R0241,ORD805155,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,size chota hai chest pe,2026-05-28,fit,too_small,chest
+R0242,ORD878656,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Quality/Fabric,,2026-06-02,quality_issue,material_mismatch,none
+R0243,ORD245175,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Other,too loose at shoulder,2026-05-17,fit,too_large,shoulder
+R0244,ORD619526,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XL,Size/Fit,,2026-04-23,fit,too_large,chest
+R0245,ORD746011,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Size/Fit,,2026-04-15,fit,too_small,chest
+R0246,ORD483964,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Other,waist fitting choti hai,2026-04-24,fit,too_small,waist
+R0247,ORD723227,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Size/Fit,bada hai chest se!!!,2026-04-02,fit,too_large,chest
+R0248,ORD782461,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Delivery Issue,,2026-04-06,delivery_issue,late_delivery,none
+R0249,ORD240257,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Product Not as Expected,mehndi ke liye liya tha but festive enough nahi,2026-08-03,product_not_as_expected,transparency,none
+R0250,ORD210434,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Damaged/Defective,,2026-04-30,damaged_defective,defect,none
+R0251,ORD269670,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Changed Mind,changed my mind,2026-08-07,changed_mind,preference_or_no_longer_needed,none
+R0252,ORD629687,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Colour Mismatch,,2026-05-01,appearance_issue,shade_mismatch,none
+R0253,ORD786603,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Wrong Item,,2026-07-02,wrong_item,wrong_product_or_variant,none
+R0254,ORD706508,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Size/Fit,,2026-04-26,fit,too_small,waist
+R0255,ORD573530,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,size bada pad gaya waist mein,2026-04-02,fit,too_large,waist
+R0256,ORD803711,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Other,"model pe different lag raha tha, actual look alag hai",2026-09-26,product_not_as_expected,style_mismatch,none
+R0257,ORD789285,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Size/Fit,,2026-08-15,fit,too_small,shoulder
+R0258,ORD332645,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Changed Mind,,2026-06-20,changed_mind,preference_or_no_longer_needed,none
+R0259,ORD616680,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Other,loose around waist,2026-08-12,fit,too_large,waist
+R0260,ORD915853,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Damaged/Defective,,2026-06-11,damaged_defective,stitching,none
+R0261,ORD577076,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XS,Other,shoulder fit small,2026-08-20,fit,too_small,shoulder
+R0262,ORD195437,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Other,kandhe pe kheench raha hai,2026-06-19,fit,too_small,shoulder
+R0263,ORD648822,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,S,Wrong Item,,2026-06-19,wrong_item,wrong_product_or_variant,none
+R0264,ORD959456,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XL,Other,arms move nahi ho raha properly,2026-07-24,fit,too_small,shoulder
+R0265,ORD291316,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Other,stitching open thi,2026-04-10,damaged_defective,zip,none
+R0266,ORD237033,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,12-13Y,Wrong Item,different colour delivered,2026-09-07,wrong_item,wrong_product_or_variant,none
+R0267,ORD460403,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,S,Quality/Fabric,,2026-06-19,quality_issue,comfort,none
+R0268,ORD439079,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Changed Mind,,2026-05-29,changed_mind,preference_or_no_longer_needed,none
+R0269,ORD814243,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,size chota hai chest pe,2026-04-10,fit,too_small,chest
+R0270,ORD999905,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Other,upper body bahut loose,2026-06-08,fit,too_large,chest
+R0271,ORD817148,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Colour Mismatch,online shade aur tha,2026-04-16,appearance_issue,print_mismatch,none
+R0272,ORD297609,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Other,shade expected jaisa nahi,2026-07-27,appearance_issue,shade_mismatch,none
+R0273,ORD227710,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Size/Fit,,2026-08-22,fit,too_small,sleeves
+R0274,ORD431657,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Product Not as Expected,bahut transparent hai,2026-09-12,product_not_as_expected,occasion_unsuitable,none
+R0275,ORD482781,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XS,Size/Fit,,2026-08-04,fit,too_large,waist
+R0276,ORD391153,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Other,sleeves tight hai,2026-07-30,fit,too_small,sleeves
+R0277,ORD408286,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XXL,Size/Fit,,2026-05-31,fit,too_long,length
+R0278,ORD415970,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Other,ab nahi chahiye,2026-08-31,changed_mind,preference_or_no_longer_needed,none
+R0279,ORD817148,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Product Not as Expected,,2026-07-08,product_not_as_expected,comfort,none
+R0280,ORD991039,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Size/Fit,,2026-06-21,fit,too_large,chest
+R0281,ORD709942,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Size/Fit,,2026-05-18,fit,too_small,shoulder
+R0282,ORD899591,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,L,Quality/Fabric,,2026-09-02,quality_issue,fabric_quality,none
+R0283,ORD213411,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,S,Other,length jyada hai mere liye,2026-07-08,fit,too_long,length
+R0284,ORD711482,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Delivery Issue,,2026-09-20,delivery_issue,late_delivery,none
+R0285,ORD780877,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XS,Other,kandha bada pad raha,2026-09-04,fit,too_large,shoulder
+R0286,ORD657145,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Other,not as expected,2026-07-07,unclear,insufficient_information,none
+R0287,ORD768013,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Changed Mind,,2026-08-25,changed_mind,preference_or_no_longer_needed,none
+R0288,ORD679848,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Size/Fit,,2026-05-10,fit,too_small,sleeves
+R0289,ORD598322,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Other,shoulder drop bahut zyada,2026-04-09,fit,too_large,shoulder
+R0290,ORD730978,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XXL,Other,length jyada hai mere liye,2026-09-22,fit,too_long,length
+R0291,ORD767536,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,2-3Y,Other,photo mein colour alag tha,2026-08-04,appearance_issue,print_mismatch,none
+R0292,ORD532496,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Other,didn't like,2026-05-14,unclear,insufficient_information,none
+R0293,ORD175495,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Other,waist se loose hai,2026-04-01,fit,too_large,waist
+R0294,ORD549867,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Damaged/Defective,,2026-04-19,damaged_defective,zip,none
+R0295,ORD918617,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Other,fit small at chest,2026-07-28,fit,too_small,chest
+R0296,ORD350633,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Product Not as Expected,,2026-04-13,product_not_as_expected,style_mismatch,none
+R0297,ORD501721,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Delivery Issue,,2026-06-28,delivery_issue,package_damage,none
+R0298,ORD523097,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Delivery Issue,,2026-07-31,delivery_issue,package_damage,none
+R0299,ORD465363,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Changed Mind,not needed now,2026-06-17,changed_mind,preference_or_no_longer_needed,none
+R0300,ORD479950,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Colour Mismatch,photo mein colour alag tha,2026-05-12,appearance_issue,print_mismatch,none
+R0301,ORD279320,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Other,color bilkul different aya,2026-04-29,appearance_issue,shade_mismatch,none
+R0302,ORD120990,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Other,bahut chota length,2026-05-07,fit,too_short,length
+R0303,ORD632168,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XL,Size/Fit,,2026-09-22,fit,too_large,chest
+R0304,ORD714800,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,M,Damaged/Defective,zip broken h,2026-04-07,damaged_defective,stitching,none
+R0305,ORD112275,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,bahut synthetic lag raha hai,2026-04-19,quality_issue,fabric_quality,none
+R0306,ORD305740,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Other,"upper body tight, especially chest",2026-09-02,fit,too_small,chest
+R0307,ORD572152,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Other,sleeve opening chota hai,2026-07-01,fit,too_small,sleeves
+R0308,ORD724663,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Other,pasand nahi aya,2026-04-14,changed_mind,preference_or_no_longer_needed,none
+R0309,ORD909131,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Other,shoulder loose hai,2026-09-19,fit,too_large,shoulder
+R0310,ORD368073,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,L,Quality/Fabric,quality photo jaisa nahi,2026-07-13,quality_issue,material_mismatch,none
+R0311,ORD967418,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Size/Fit,waist se loose haii!!!,2026-09-13,fit,too_large,waist
+R0312,ORD251756,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Colour Mismatch,,2026-04-25,appearance_issue,print_mismatch,none
+R0313,ORD173347,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Damaged/Defective,,2026-09-12,damaged_defective,hole,none
+R0314,ORD497933,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Other,actual colour darker hai,2026-04-03,appearance_issue,colour_mismatch,none
+R0315,ORD914681,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Wrong Item,,2026-06-11,wrong_item,wrong_product_or_variant,none
+R0316,ORD950161,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,12-13Y,Quality/Fabric,,2026-07-19,quality_issue,fabric_quality,none
+R0317,ORD533630,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Other,too long for my height,2026-07-30,fit,too_long,length
+R0318,ORD354637,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Colour Mismatch,design photo se match nahi karta,2026-05-26,appearance_issue,colour_mismatch,none
+R0319,ORD712029,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Wrong Item,,2026-06-26,wrong_item,wrong_product_or_variant,none
+R0320,ORD339074,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Other,kapda acha nahi laga,2026-08-13,quality_issue,fabric_quality,none
+R0321,ORD768809,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XXL,Other,pasand nahi aya,2026-08-10,changed_mind,preference_or_no_longer_needed,none
+R0322,ORD387203,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Damaged/Defective,,2026-04-01,damaged_defective,button,none
+R0323,ORD997369,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Other,upper body bahut loose ..,2026-08-22,fit,too_large,chest
+R0324,ORD697929,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Other,fabric quality poor,2026-07-24,quality_issue,fabric_quality,none
+R0325,ORD976569,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Other,defective piece received,2026-07-11,damaged_defective,stitching,none
+R0326,ORD651983,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Size/Fit,,2026-08-06,fit,too_large,waist
+R0327,ORD195727,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XXL,Other,material comfortable nahi,2026-04-20,quality_issue,fabric_quality,none
+R0328,ORD437882,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Wrong Item,,2026-07-12,wrong_item,wrong_product_or_variant,none
+R0329,ORD130859,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Other,not good,2026-09-17,unclear,insufficient_information,none
+R0330,ORD207642,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Other,kamr se bahut tight,2026-04-10,fit,too_small,waist
+R0331,ORD461009,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Other,loose around waist,2026-07-02,fit,too_large,waist
+R0332,ORD263336,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,"upper body tight, especially chest",2026-05-17,fit,too_small,chest
+R0333,ORD903671,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Size/Fit,,2026-05-15,fit,too_large,shoulder
+R0334,ORD262404,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,length short haii,2026-09-26,fit,too_short,length
+R0335,ORD360221,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,12-13Y,Colour Mismatch,print different lag raha,2026-05-20,appearance_issue,colour_mismatch,none
+R0336,ORD785063,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,4-5Y,Colour Mismatch,colour mismatch,2026-06-15,appearance_issue,colour_mismatch,none
+R0337,ORD619753,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,M liya but chest fit nahi hua,2026-04-30,fit,too_small,chest
+R0338,ORD545072,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Delivery Issue,,2026-05-10,delivery_issue,package_damage,none
+R0339,ORD761798,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XXL,Other,kamr bahut loose,2026-04-01,fit,too_large,waist
+R0340,ORD735744,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Other,baazu mein tight,2026-04-30,fit,too_small,sleeves
+R0341,ORD922141,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Size/Fit,,2026-05-27,fit,too_long,length
+R0342,ORD923257,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Other,chest fit too big,2026-06-11,fit,too_large,chest
+R0343,ORD964931,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Size/Fit,shoulder bahut snug,2026-09-01,fit,too_small,shoulder
+R0344,ORD132788,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Other,waist fitting choti hai,2026-09-22,fit,too_small,waist
+R0345,ORD701630,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Size/Fit,kandha bada pad raha,2026-06-21,fit,too_large,shoulder
+R0346,ORD713018,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Other,quality photo jaisa nahi,2026-06-14,quality_issue,material_mismatch,none
+R0347,ORD860508,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Other,kandha bada pad raha,2026-06-19,fit,too_large,shoulder
+R0348,ORD288183,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Size/Fit,,2026-05-24,fit,too_large,waist
+R0349,ORD142939,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Colour Mismatch,design photo se match nahi karta,2026-07-13,appearance_issue,print_mismatch,none
+R0350,ORD708739,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XS,Other,loose around waist yaar,2026-08-12,fit,too_large,waist
+R0351,ORD540576,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Changed Mind,,2026-07-05,changed_mind,preference_or_no_longer_needed,none
+R0352,ORD595578,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Other,length kam hai,2026-09-16,fit,too_short,length
+R0353,ORD139411,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Other,material comfortable nahi,2026-08-26,quality_issue,fabric_quality,none
+R0354,ORD417771,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Damaged/Defective,,2026-06-22,damaged_defective,defect,none
+R0355,ORD715688,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Size/Fit,,2026-09-19,fit,too_small,chest
+R0356,ORD676994,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,fabric quality poor,2026-08-25,quality_issue,fabric_quality,none
+R0357,ORD607879,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,"expected longer, ye short h",2026-06-16,fit,too_short,length
+R0358,ORD725235,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XL,Delivery Issue,,2026-06-24,delivery_issue,package_damage,none
+R0359,ORD748890,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Other,length jyada h mere liye,2026-08-25,fit,too_long,length
+R0360,ORD342222,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Other,chest area mein bilkul space nahi,2026-07-02,fit,too_small,chest
+R0361,ORD686316,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Damaged/Defective,piece damaged tha,2026-07-15,damaged_defective,hole,none
+R0362,ORD354685,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Size/Fit,chest tight ho raha tha,2026-09-20,fit,too_small,chest
+R0363,ORD152582,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Quality/Fabric,,2026-05-06,quality_issue,fabric_quality,none
+R0364,ORD322268,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Size/Fit,,2026-05-21,fit,too_large,waist
+R0365,ORD522037,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,S,Delivery Issue,,2026-08-17,delivery_issue,package_damage,none
+R0366,ORD536837,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Other,bahut late aya,2026-06-19,delivery_issue,late_delivery,none
+R0367,ORD728241,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XS,Other,mummy ko pasand nahi aya yaar,2026-06-13,changed_mind,preference_or_no_longer_needed,none
+R0368,ORD745085,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Quality/Fabric,kapda bahut patla hai,2026-04-23,quality_issue,fabric_quality,none
+R0369,ORD956627,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XL,Size/Fit,bada haii chest se,2026-05-31,fit,too_large,chest
+R0370,ORD298184,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,12-13Y,Other,wrong item mila,2026-05-15,wrong_item,wrong_product_or_variant,none
+R0371,ORD192691,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Size/Fit,,2026-07-13,fit,too_large,waist
+R0372,ORD670063,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Other,material cheap feel ho raha,2026-06-28,quality_issue,fabric_quality,none
+R0373,ORD953525,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Other,bhut late aya,2026-04-12,delivery_issue,late_delivery,none
+R0374,ORD457831,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Changed Mind,ab nahi chahiye,2026-05-22,changed_mind,preference_or_no_longer_needed,none
+R0375,ORD301920,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,M,Quality/Fabric,,2026-08-25,quality_issue,fabric_quality,none
+R0376,ORD542309,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Delivery Issue,,2026-05-17,delivery_issue,package_damage,none
+R0377,ORD205078,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XL,Other,length jyada hai mere liye,2026-07-21,fit,too_long,length
+R0378,ORD795487,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Size/Fit,,2026-04-20,fit,too_small,sleeves
+R0379,ORD662148,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Wrong Item,,2026-08-29,wrong_item,wrong_product_or_variant,none
+R0380,ORD224711,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Damaged/Defective,wrong item mila,2026-08-18,damaged_defective,zip,none
+R0381,ORD642180,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,12-13Y,Other,mehndi ke liye liya tha but festive enough nahi,2026-07-08,product_not_as_expected,occasion_unsuitable,none
+R0382,ORD295318,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Other,sleeves tight haii,2026-08-31,fit,too_small,sleeves
+R0383,ORD124712,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Other,color bilkul different aya,2026-09-15,appearance_issue,print_mismatch,none
+R0384,ORD485969,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XXL,Product Not as Expected,,2026-07-02,product_not_as_expected,occasion_unsuitable,none
+R0385,ORD128674,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Size/Fit,,2026-08-10,fit,too_long,length
+R0386,ORD283970,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Other,delivery delay hua,2026-06-15,delivery_issue,late_delivery,none
+R0387,ORD739434,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Product Not as Expected,,2026-09-02,product_not_as_expected,comfort,none
+R0388,ORD231694,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Changed Mind,ab nahi chahiye,2026-04-04,changed_mind,preference_or_no_longer_needed,none
+R0389,ORD847536,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Other,pehenne mein comfortable nahi,2026-08-26,product_not_as_expected,comfort,none
+R0390,ORD219754,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Other,loose around waist,2026-04-12,fit,too_large,waist
+R0391,ORD964686,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Other,actual colour darker hai,2026-06-20,appearance_issue,shade_mismatch,none
+R0392,ORD457139,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Size/Fit,shoulder drop bht zyada,2026-04-09,fit,too_large,shoulder
+R0393,ORD995021,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Other,wash ke pehle hi rough feel,2026-07-28,quality_issue,fabric_quality,none
+R0394,ORD174182,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Other,loose around waist,2026-07-10,fit,too_large,waist
+R0395,ORD748324,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Size/Fit,,2026-07-19,fit,too_small,sleeves
+R0396,ORD866439,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Other,shoulder fitting badi he ..,2026-06-21,fit,too_large,shoulder
+R0397,ORD156645,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Size/Fit,,2026-04-19,fit,too_large,waist
+R0398,ORD534655,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Damaged/Defective,,2026-06-15,damaged_defective,defect,none
+R0399,ORD659842,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Size/Fit,length expected se zyada,2026-04-20,fit,too_long,length
+R0400,ORD246021,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Product Not as Expected,,2026-04-14,product_not_as_expected,comfort,none
+R0401,ORD609196,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Damaged/Defective,,2026-08-05,damaged_defective,defect,none
+R0402,ORD955987,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Wrong Item,,2026-07-15,wrong_item,wrong_product_or_variant,none
+R0403,ORD258732,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Other,fabric dekh ke lag raha wash mein shrink hoga,2026-04-07,product_not_as_expected,shrinkage_concern,none
+R0404,ORD380159,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Wrong Item,different colour delivered,2026-09-03,wrong_item,wrong_product_or_variant,none
+R0405,ORD125573,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Size/Fit,upper body bht loose,2026-05-26,fit,too_large,chest
+R0406,ORD341205,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,8-9Y,Other,problem hai,2026-08-08,unclear,insufficient_information,none
+R0407,ORD623200,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Size/Fit,chest area mein bilkul space nahi,2026-08-11,fit,too_small,chest
+R0408,ORD871769,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Other,quality photo jaisa nahi,2026-09-09,quality_issue,comfort,none
+R0409,ORD225986,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Other,arms move nahi ho raha properly,2026-07-09,fit,too_small,shoulder
+R0410,ORD869322,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Other,size chota hai chest pe,2026-05-24,fit,too_small,chest
+R0411,ORD940710,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Damaged/Defective,,2026-09-07,damaged_defective,stitching,none
+R0412,ORD660387,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Other,size bada pad gaya waist mein pls,2026-07-12,fit,too_large,waist
+R0413,ORD380233,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Other,not good,2026-06-15,unclear,insufficient_information,none
+R0414,ORD386325,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Size/Fit,,2026-09-01,fit,too_large,shoulder
+R0415,ORD424278,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Quality/Fabric,kapda acha nahi laga,2026-05-22,quality_issue,comfort,none
+R0416,ORD132878,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XXL,Other,button missing,2026-05-13,damaged_defective,stitching,none
+R0417,ORD816507,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Other,fabric dekh ke lag raha wash mein shrink hoga,2026-04-16,product_not_as_expected,shrinkage_concern,none
+R0418,ORD405477,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Other,delivery delay hua yaar,2026-06-16,delivery_issue,package_damage,none
+R0419,ORD555229,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Other,length jyada hai mere liye,2026-06-09,fit,too_long,length
+R0420,ORD420768,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Other,quality?,2026-04-13,unclear,insufficient_information,none
+R0421,ORD515916,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Other,defective piece received,2026-07-07,damaged_defective,defect,none
+R0422,ORD599912,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Product Not as Expected,,2026-09-17,product_not_as_expected,style_mismatch,none
+R0423,ORD422462,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Quality/Fabric,,2026-05-28,quality_issue,comfort,none
+R0424,ORD899210,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Wrong Item,,2026-08-26,wrong_item,wrong_product_or_variant,none
+R0425,ORD777898,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,S,Other,arms move nahi ho raha properly,2026-08-30,fit,too_small,shoulder
+R0426,ORD477662,KID-450,Kids Festive Set,Kidswear,Vendor_12,8-9Y,Other,wrong colour delivered,2026-06-18,wrong_item,wrong_product_or_variant,none
+R0427,ORD882087,KID-450,Kids Festive Set,Kidswear,Vendor_12,12-13Y,Other,kapda acha nahi laga,2026-07-05,quality_issue,material_mismatch,none
+R0428,ORD353604,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,M,Wrong Item,,2026-08-31,wrong_item,wrong_product_or_variant,none
+R0429,ORD978335,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,not needed now,2026-04-18,changed_mind,preference_or_no_longer_needed,none
+R0430,ORD133934,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Other,color bilkul different aya!!!,2026-09-03,appearance_issue,print_mismatch,none
+R0431,ORD849300,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Other,shoulder fit small,2026-06-24,fit,too_small,shoulder
+R0432,ORD881768,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,M liya but chest fit nahi hua,2026-04-05,fit,too_small,chest
+R0433,ORD516232,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Other,waist fitting badi haii,2026-09-15,fit,too_large,waist
+R0434,ORD742893,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XS,Colour Mismatch,design photo se match nahi karta,2026-05-22,appearance_issue,shade_mismatch,none
+R0435,ORD692147,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,chest area mein bilkul space nahi,2026-05-23,fit,too_small,chest
+R0436,ORD357948,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XXL,Damaged/Defective,size hi wrong bheja,2026-05-22,damaged_defective,button,none
+R0437,ORD393765,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,M,Other,waist se loose hai,2026-07-12,fit,too_large,waist
+R0438,ORD835187,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XL,Other,bahut synthetic lag raha hai,2026-04-07,quality_issue,comfort,none
+R0439,ORD177288,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XL,Size/Fit,too loose at shoulder,2026-09-05,fit,too_large,shoulder
+R0440,ORD673433,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Changed Mind,not needed now,2026-06-10,changed_mind,preference_or_no_longer_needed,none
+R0441,ORD792973,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Other,baazu mein tight,2026-08-11,fit,too_small,sleeves
+R0442,ORD228752,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XXL,Size/Fit,,2026-08-25,fit,too_long,length
+R0443,ORD513287,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Damaged/Defective,,2026-09-08,damaged_defective,stitching,none
+R0444,ORD634955,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Colour Mismatch,colour mismatch,2026-08-03,appearance_issue,colour_mismatch,none
+R0445,ORD447826,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,chest se tight hai,2026-09-15,fit,too_small,chest
+R0446,ORD880162,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Size/Fit,,2026-05-07,fit,too_long,length
+R0447,ORD591542,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Size/Fit,,2026-05-02,fit,too_small,waist
+R0448,ORD452075,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Colour Mismatch,design photo se match nahi karta,2026-09-22,appearance_issue,shade_mismatch,none
+R0449,ORD323842,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XL,Delivery Issue,,2026-04-30,delivery_issue,late_delivery,none
+R0450,ORD746313,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,bahut chota length,2026-05-10,fit,too_short,length
+R0451,ORD977205,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Colour Mismatch,,2026-07-05,appearance_issue,shade_mismatch,none
+R0452,ORD219476,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,4-5Y,Other,size hi wrong bheja,2026-05-30,wrong_item,wrong_product_or_variant,none
+R0453,ORD371042,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Wrong Item,,2026-05-25,wrong_item,wrong_product_or_variant,none
+R0454,ORD983664,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Size/Fit,,2026-04-22,fit,too_long,length
+R0455,ORD847428,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Other,shoulder drop bahut zyada,2026-05-19,fit,too_large,shoulder
+R0456,ORD907072,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Quality/Fabric,,2026-08-27,quality_issue,fabric_quality,none
+R0457,ORD425730,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Size/Fit,waist mein fit nahi hua,2026-07-15,fit,too_small,waist
+R0458,ORD246156,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Quality/Fabric,quality photo jaisa nahi,2026-04-16,quality_issue,comfort,none
+R0459,ORD976345,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Size/Fit,M liya but chest fit nahi hua,2026-06-21,fit,too_small,chest
+R0460,ORD481118,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Other,kapda bahut patla hai,2026-04-30,quality_issue,fabric_quality,none
+R0461,ORD732593,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Damaged/Defective,piece damaged tha,2026-04-01,damaged_defective,zip,none
+R0462,ORD197575,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Quality/Fabric,,2026-07-16,quality_issue,material_mismatch,none
+R0463,ORD904708,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XXL,Other,material comfortable nahi yaar,2026-08-30,quality_issue,fabric_quality,none
+R0464,ORD306732,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Wrong Item,size wrong bheja,2026-09-18,wrong_item,wrong_product_or_variant,none
+R0465,ORD386302,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Other,loose around waist,2026-07-19,fit,too_large,waist
+R0466,ORD818172,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XXL,Size/Fit,kandha bada pad raha,2026-06-19,fit,too_large,shoulder
+R0467,ORD566494,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Changed Mind,,2026-07-08,changed_mind,preference_or_no_longer_needed,none
+R0468,ORD887563,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Size/Fit,,2026-06-01,fit,too_small,shoulder
+R0469,ORD896780,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,size chota hai chest pe ..,2026-05-25,fit,too_small,chest
+R0470,ORD956505,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,S,Colour Mismatch,color bilkul different aya,2026-09-03,appearance_issue,print_mismatch,none
+R0471,ORD377642,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Other,design photo se match nahi karta,2026-09-19,appearance_issue,print_mismatch,none
+R0472,ORD639714,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Damaged/Defective,dusra product bhej diya,2026-07-17,damaged_defective,button,none
+R0473,ORD956693,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Other,not good,2026-04-24,unclear,insufficient_information,none
+R0474,ORD526571,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Damaged/Defective,,2026-04-28,damaged_defective,hole,none
+R0475,ORD404460,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Other,fit loose on chest,2026-06-15,fit,too_large,chest
+R0476,ORD147583,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Quality/Fabric,bahut synthetic lag raha hai,2026-04-14,quality_issue,fabric_quality,none
+R0477,ORD215550,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XXL,Changed Mind,,2026-05-10,changed_mind,preference_or_no_longer_needed,none
+R0478,ORD766572,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Size/Fit,kandha bada pad raha,2026-09-06,fit,too_large,shoulder
+R0479,ORD106881,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Other,fit loose on chest,2026-08-09,fit,too_large,chest
+R0480,ORD442754,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Size/Fit,,2026-07-18,fit,too_small,shoulder
+R0481,ORD160695,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Product Not as Expected,,2026-04-20,product_not_as_expected,transparency,none
+R0482,ORD498179,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,L,Quality/Fabric,cloth itchy hai,2026-09-07,quality_issue,fabric_quality,none
+R0483,ORD331679,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Other,shoulder bahut snug,2026-04-11,fit,too_small,shoulder
+R0484,ORD656489,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Size/Fit,,2026-07-24,fit,too_small,chest
+R0485,ORD128605,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Size/Fit,,2026-04-06,fit,too_large,shoulder
+R0486,ORD715424,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,"upper body tight, especially chest",2026-06-02,fit,too_small,chest
+R0487,ORD662556,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Colour Mismatch,photo mein colour alag tha,2026-05-21,appearance_issue,colour_mismatch,none
+R0488,ORD592512,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,S,Wrong Item,,2026-05-29,wrong_item,wrong_product_or_variant,none
+R0489,ORD422221,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Other,kandha bada pad raha!!!,2026-09-03,fit,too_large,shoulder
+R0490,ORD317852,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XXL,Damaged/Defective,,2026-05-03,damaged_defective,stitching,none
+R0491,ORD289897,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Size/Fit,,2026-08-04,fit,too_small,chest
+R0492,ORD518901,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Changed Mind,,2026-08-19,changed_mind,preference_or_no_longer_needed,none
+R0493,ORD379818,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Changed Mind,,2026-04-16,changed_mind,preference_or_no_longer_needed,none
+R0494,ORD404327,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Colour Mismatch,,2026-05-16,appearance_issue,print_mismatch,none
+R0495,ORD360051,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Quality/Fabric,,2026-07-07,quality_issue,comfort,none
+R0496,ORD872965,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Damaged/Defective,zip broken hai,2026-05-07,damaged_defective,hole,none
+R0497,ORD535015,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,M,Wrong Item,,2026-09-08,wrong_item,wrong_product_or_variant,none
+R0498,ORD120569,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Other,baazu mein tight,2026-07-02,fit,too_small,sleeves
+R0499,ORD834640,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,12-13Y,Other,kapda bahut patla hai yaar,2026-06-21,quality_issue,fabric_quality,none
+R0500,ORD574459,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Quality/Fabric,,2026-07-31,quality_issue,material_mismatch,none
+R0501,ORD482588,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Other,length kam hai,2026-04-19,fit,too_short,length
+R0502,ORD972469,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Other,not as expected,2026-07-08,unclear,insufficient_information,none
+R0503,ORD447570,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XXL,Other,design photo se match nahi karta,2026-05-13,appearance_issue,print_mismatch,none
+R0504,ORD484704,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Size/Fit,fit small at chest,2026-05-19,fit,too_small,chest
+R0505,ORD846420,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Delivery Issue,bahut late aya,2026-06-17,delivery_issue,package_damage,none
+R0506,ORD724664,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Other,tight around waist,2026-08-11,fit,too_small,waist
+R0507,ORD294271,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Other,waist se loose hai pls,2026-06-02,fit,too_large,waist
+R0508,ORD815534,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Quality/Fabric,material comfortable nahi,2026-06-20,quality_issue,material_mismatch,none
+R0509,ORD548680,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,S,Quality/Fabric,material comfortable nahi,2026-05-03,quality_issue,fabric_quality,none
+R0510,ORD629843,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Colour Mismatch,,2026-08-15,appearance_issue,colour_mismatch,none
+R0511,ORD329029,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XXL,Size/Fit,,2026-05-12,fit,too_small,waist
+R0512,ORD645912,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Other,chest fit too big,2026-04-18,fit,too_large,chest
+R0513,ORD442349,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XS,Damaged/Defective,,2026-05-13,damaged_defective,hole,none
+R0514,ORD292710,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,8-9Y,Other,size okay but waist tight,2026-04-30,fit,too_small,waist
+R0515,ORD102413,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XS,Size/Fit,shoulder fit small,2026-08-22,fit,too_small,shoulder
+R0516,ORD775296,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XXL,Other,office wear socha tha but too casual,2026-05-30,product_not_as_expected,style_mismatch,none
+R0517,ORD312543,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,arms move nahi ho raha properly,2026-04-07,fit,too_small,shoulder
+R0518,ORD551068,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Damaged/Defective,,2026-09-04,damaged_defective,defect,none
+R0519,ORD608479,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XS,Other,length short haii!!!,2026-08-13,fit,too_short,length
+R0520,ORD216329,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,L,Delivery Issue,delivery late thi ..,2026-05-27,delivery_issue,package_damage,none
+R0521,ORD794031,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,4-5Y,Size/Fit,upper body bahut loose,2026-08-01,fit,too_large,chest
+R0522,ORD822622,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Colour Mismatch,,2026-05-06,appearance_issue,colour_mismatch,none
+R0523,ORD347105,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XS,Other,size chota hai chest pe,2026-06-05,fit,too_small,chest
+R0524,ORD842631,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Damaged/Defective,hole tha product mein,2026-04-19,damaged_defective,defect,none
+R0525,ORD418007,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Other,upper body bahut loose,2026-07-30,fit,too_large,chest
+R0526,ORD860821,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Size/Fit,,2026-04-27,fit,too_large,waist
+R0527,ORD731725,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Other,"model pe different lag raha tha, actual look alag hai",2026-07-24,product_not_as_expected,style_mismatch,none
+R0528,ORD310735,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,6-7Y,Other,length short hai,2026-08-26,fit,too_short,length
+R0529,ORD184995,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Quality/Fabric,,2026-07-23,quality_issue,fabric_quality,none
+R0530,ORD974807,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Other,tight around waist,2026-06-12,fit,too_small,waist
+R0531,ORD657310,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Other,length expected se zyada,2026-05-09,fit,too_long,length
+R0532,ORD640974,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Other,occasion cancel ho gaya,2026-04-15,changed_mind,preference_or_no_longer_needed,none
+R0533,ORD719458,KID-450,Kids Festive Set,Kidswear,Vendor_12,4-5Y,Changed Mind,,2026-05-05,changed_mind,preference_or_no_longer_needed,none
+R0534,ORD494431,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Other,actual colour darker hai,2026-05-06,appearance_issue,colour_mismatch,none
+R0535,ORD717905,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Delivery Issue,delivery delay hua,2026-05-08,delivery_issue,package_damage,none
+R0536,ORD235327,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Other,expected date miss ho gaya,2026-09-05,delivery_issue,late_delivery,none
+R0537,ORD347722,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Other,sleeve fit nahi hua,2026-05-07,fit,too_small,sleeves
+R0538,ORD303782,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XXL,Other,fabric dekh ke lag raha wash mein shrink hoga,2026-06-21,product_not_as_expected,shrinkage_concern,none
+R0539,ORD475335,KID-450,Kids Festive Set,Kidswear,Vendor_12,4-5Y,Changed Mind,,2026-09-16,changed_mind,preference_or_no_longer_needed,none
+R0540,ORD587005,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,4-5Y,Size/Fit,waist mein fit nahi hua yaar,2026-07-07,fit,too_small,waist
+R0541,ORD371190,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Product Not as Expected,office wear socha tha but too casual,2026-09-22,product_not_as_expected,comfort,none
+R0542,ORD116882,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Damaged/Defective,size hi wrong bheja,2026-08-18,damaged_defective,hole,none
+R0543,ORD357507,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Damaged/Defective,wrong colour delivered,2026-05-25,damaged_defective,button,none
+R0544,ORD949617,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Wrong Item,,2026-04-05,wrong_item,wrong_product_or_variant,none
+R0545,ORD611520,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Other,quality?,2026-06-09,unclear,insufficient_information,none
+R0546,ORD993139,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,sleeves tight hai,2026-07-27,fit,too_small,sleeves
+R0547,ORD516153,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Size/Fit,,2026-05-26,fit,too_small,chest
+R0548,ORD173514,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Product Not as Expected,pehenne mein comfortable nahi,2026-04-21,product_not_as_expected,style_mismatch,none
+R0549,ORD279511,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Other,material comfortable nahi,2026-07-27,quality_issue,fabric_quality,none
+R0550,ORD945832,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Damaged/Defective,,2026-05-31,damaged_defective,zip,none
+R0551,ORD117160,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,"upper body tight, especially chest",2026-08-27,fit,too_small,chest
+R0552,ORD915775,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Quality/Fabric,,2026-08-15,quality_issue,comfort,none
+R0553,ORD193838,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Other,arms move nahi ho raha properly,2026-09-24,fit,too_small,shoulder
+R0554,ORD508734,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Quality/Fabric,,2026-04-24,quality_issue,material_mismatch,none
+R0555,ORD967025,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Other,wash ke pehle hi rough feel yaar,2026-06-05,quality_issue,material_mismatch,none
+R0556,ORD148298,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Other,chest area loose hai,2026-04-30,fit,too_large,chest
+R0557,ORD421550,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Size/Fit,,2026-09-05,fit,too_small,chest
+R0558,ORD709973,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Size/Fit,,2026-04-11,fit,too_small,shoulder
+R0559,ORD596666,KID-450,Kids Festive Set,Kidswear,Vendor_12,4-5Y,Wrong Item,,2026-04-22,wrong_item,wrong_product_or_variant,none
+R0560,ORD248438,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,2-3Y,Size/Fit,,2026-08-12,fit,too_large,shoulder
+R0561,ORD300739,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XL,Wrong Item,,2026-05-14,wrong_item,wrong_product_or_variant,none
+R0562,ORD212766,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Other,material cheap feel ho raha,2026-07-22,quality_issue,comfort,none
+R0563,ORD565366,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XXL,Other,size okay but waist tight,2026-08-06,fit,too_small,waist
+R0564,ORD797258,KID-450,Kids Festive Set,Kidswear,Vendor_12,4-5Y,Other,bada hai chest se,2026-05-22,fit,too_large,chest
+R0565,ORD236274,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Size/Fit,,2026-06-28,fit,too_large,chest
+R0566,ORD868772,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Product Not as Expected,pehenne mein comfortable nahi,2026-06-14,product_not_as_expected,comfort,none
+R0567,ORD423945,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XS,Other,chest fit too big,2026-05-06,fit,too_large,chest
+R0568,ORD755891,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,8-9Y,Size/Fit,shoulder loose hai,2026-06-26,fit,too_large,shoulder
+R0569,ORD920854,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Quality/Fabric,,2026-05-31,quality_issue,material_mismatch,none
+R0570,ORD922662,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Other,pasand nahi aya,2026-09-11,changed_mind,preference_or_no_longer_needed,none
+R0571,ORD727335,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Other,m liya but chest fit nahi hua,2026-09-09,fit,too_small,chest
+R0572,ORD732367,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Size/Fit,length short haii,2026-05-20,fit,too_short,length
+R0573,ORD786512,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XXL,Other,material cheap feel ho raha,2026-04-18,quality_issue,comfort,none
+R0574,ORD741081,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Changed Mind,mummy ko pasand nahi aya,2026-06-30,changed_mind,preference_or_no_longer_needed,none
+R0575,ORD372125,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Quality/Fabric,,2026-08-13,quality_issue,comfort,none
+R0576,ORD169593,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Other,fit loose on chest,2026-08-06,fit,too_large,chest
+R0577,ORD713114,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Other,fit loose on chest,2026-08-04,fit,too_large,chest
+R0578,ORD581954,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,chest area mein bilkul space nahi,2026-06-02,fit,too_small,chest
+R0579,ORD116742,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Size/Fit,shoulder fitting badi hai,2026-07-21,fit,too_large,shoulder
+R0580,ORD585440,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Damaged/Defective,piece damaged tha,2026-09-08,damaged_defective,defect,none
+R0581,ORD133479,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Size/Fit,,2026-07-16,fit,too_small,sleeves
+R0582,ORD791622,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Size/Fit,,2026-06-03,fit,too_small,sleeves
+R0583,ORD308026,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Damaged/Defective,,2026-07-21,damaged_defective,hole,none
+R0584,ORD339672,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Other,fabric rough hai,2026-05-28,quality_issue,comfort,none
+R0585,ORD761670,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,M,Other,size okay but waist tight,2026-04-05,fit,too_small,waist
+R0586,ORD657138,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,L,Damaged/Defective,,2026-05-28,damaged_defective,defect,none
+R0587,ORD430210,KID-450,Kids Festive Set,Kidswear,Vendor_12,12-13Y,Colour Mismatch,,2026-04-20,appearance_issue,colour_mismatch,none
+R0588,ORD286766,KID-450,Kids Festive Set,Kidswear,Vendor_12,4-5Y,Damaged/Defective,,2026-04-04,damaged_defective,zip,none
+R0589,ORD615293,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XL,Changed Mind,,2026-07-27,changed_mind,preference_or_no_longer_needed,none
+R0590,ORD174472,KID-450,Kids Festive Set,Kidswear,Vendor_12,8-9Y,Delivery Issue,delivery late thi,2026-05-12,delivery_issue,package_damage,none
+R0591,ORD107957,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,S,Product Not as Expected,,2026-04-17,product_not_as_expected,occasion_unsuitable,none
+R0592,ORD692580,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Colour Mismatch,online shade aur tha,2026-09-13,appearance_issue,shade_mismatch,none
+R0593,ORD686307,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Other,quality photo jaisa nahi,2026-06-13,quality_issue,comfort,none
+R0594,ORD479518,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Changed Mind,ab nahi chahiye,2026-06-10,changed_mind,preference_or_no_longer_needed,none
+R0595,ORD399749,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Colour Mismatch,,2026-06-30,appearance_issue,shade_mismatch,none
+R0596,ORD338867,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Other,wash ke pehle hi rough feel yaar,2026-04-25,quality_issue,comfort,none
+R0597,ORD715257,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Size/Fit,fit loose on chest,2026-07-12,fit,too_large,chest
+R0598,ORD869946,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Other,material cheap feel ho raha yaar,2026-06-26,quality_issue,material_mismatch,none
+R0599,ORD747414,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Other,loose around waist,2026-05-23,fit,too_large,waist
+R0600,ORD975936,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Other,colour mismatch,2026-05-27,appearance_issue,shade_mismatch,none
+R0601,ORD175423,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Other,expected cotton but material different,2026-07-07,quality_issue,comfort,none
+R0602,ORD809902,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Other,sleeves tight hai,2026-05-26,fit,too_small,sleeves
+R0603,ORD122893,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Delivery Issue,,2026-05-27,delivery_issue,package_damage,none
+R0604,ORD147479,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Size/Fit,sleeve fit nahi hua,2026-09-24,fit,too_small,sleeves
+R0605,ORD648012,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Size/Fit,,2026-06-04,fit,too_small,chest
+R0606,ORD257272,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Wrong Item,,2026-07-19,wrong_item,wrong_product_or_variant,none
+R0607,ORD701170,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Size/Fit,too long for my height,2026-09-27,fit,too_long,length
+R0608,ORD829395,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,fit small at chest,2026-04-28,fit,too_small,chest
+R0609,ORD183536,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Changed Mind,,2026-04-18,changed_mind,preference_or_no_longer_needed,none
+R0610,ORD662463,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Changed Mind,ab nahi chahiye,2026-05-10,changed_mind,preference_or_no_longer_needed,none
+R0611,ORD970996,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Other,chest area mein bilkul space nahi,2026-05-02,fit,too_small,chest
+R0612,ORD392998,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Other,color bilkul different aya,2026-06-01,appearance_issue,shade_mismatch,none
+R0613,ORD471371,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,size chota hai chest pe,2026-04-30,fit,too_small,chest
+R0614,ORD235182,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,6-7Y,Quality/Fabric,,2026-05-30,quality_issue,fabric_quality,none
+R0615,ORD281468,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Other,kamr bahut loose,2026-08-11,fit,too_large,waist
+R0616,ORD970748,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,shade expected jaisa nahi,2026-04-10,appearance_issue,shade_mismatch,none
+R0617,ORD734498,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,L,Other,"expected longer, ye short hai",2026-09-19,fit,too_short,length
+R0618,ORD569995,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,chest bahut tight tha,2026-06-07,fit,too_small,chest
+R0619,ORD317079,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,2-3Y,Colour Mismatch,picture mein bright tha actual dull hai,2026-05-17,appearance_issue,shade_mismatch,none
+R0620,ORD723056,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Size/Fit,m liya but chest fit nahi hua pls,2026-04-13,fit,too_small,chest
+R0621,ORD902482,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,too long for my height,2026-06-12,fit,too_long,length
+R0622,ORD815140,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Size/Fit,,2026-09-20,fit,too_long,length
+R0623,ORD761293,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Other,wash ke pehle hi rough feel,2026-04-30,quality_issue,comfort,none
+R0624,ORD578445,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Changed Mind,,2026-09-18,changed_mind,preference_or_no_longer_needed,none
+R0625,ORD114733,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Other,bahut synthetic lag raha hai,2026-08-22,quality_issue,material_mismatch,none
+R0626,ORD608787,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XXL,Other,length jyada h mere liye,2026-08-27,fit,too_long,length
+R0627,ORD436704,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Other,too loose at shoulder,2026-07-05,fit,too_large,shoulder
+R0628,ORD170156,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,S,Other,wrong item mila,2026-08-20,wrong_item,wrong_product_or_variant,none
+R0629,ORD403595,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Other,sleeves tight haii,2026-08-27,fit,too_small,sleeves
+R0630,ORD717928,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XXL,Damaged/Defective,zip broken hai,2026-09-07,damaged_defective,hole,none
+R0631,ORD258219,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Other,wash ke pehle hi rough feel,2026-05-27,quality_issue,comfort,none
+R0632,ORD224350,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Quality/Fabric,material comfortable nahi,2026-06-15,quality_issue,fabric_quality,none
+R0633,ORD449917,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Size/Fit,length jyada haii mere liye,2026-09-13,fit,too_long,length
+R0634,ORD848046,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Size/Fit,,2026-06-02,fit,too_small,chest
+R0635,ORD760494,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,12-13Y,Other,hole tha product mein,2026-04-09,damaged_defective,stitching,none
+R0636,ORD433368,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Other,not needed now,2026-08-25,changed_mind,preference_or_no_longer_needed,none
+R0637,ORD584361,KID-450,Kids Festive Set,Kidswear,Vendor_12,8-9Y,Other,size chota haii chest pe,2026-04-08,fit,too_small,chest
+R0638,ORD751619,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Quality/Fabric,,2026-07-01,quality_issue,fabric_quality,none
+R0639,ORD157649,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,"upper body tight, especially chest",2026-05-17,fit,too_small,chest
+R0640,ORD855802,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XS,Other,baazu mein tight,2026-07-30,fit,too_small,sleeves
+R0641,ORD310211,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Size/Fit,,2026-07-25,fit,too_large,shoulder
+R0642,ORD765472,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Wrong Item,size wrong bheja,2026-04-12,wrong_item,wrong_product_or_variant,none
+R0643,ORD255845,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,"upper body tight, especially chest",2026-04-03,fit,too_small,chest
+R0644,ORD241042,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Wrong Item,,2026-09-01,wrong_item,wrong_product_or_variant,none
+R0645,ORD456925,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Size/Fit,,2026-05-31,fit,too_short,length
+R0646,ORD906783,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,chest bahut tight tha,2026-07-05,fit,too_small,chest
+R0647,ORD334464,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Quality/Fabric,,2026-08-16,quality_issue,fabric_quality,none
+R0648,ORD538424,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XXL,Size/Fit,neeche tak extra aa raha,2026-08-04,fit,too_long,length
+R0649,ORD181920,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Other,loose around waist,2026-08-06,fit,too_large,waist
+R0650,ORD996006,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,L,Other,expected cotton but material different,2026-04-25,quality_issue,material_mismatch,none
+R0651,ORD772443,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Changed Mind,,2026-07-21,changed_mind,preference_or_no_longer_needed,none
+R0652,ORD652852,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Product Not as Expected,mehndi ke liye liya tha but festive enough nahi,2026-05-06,product_not_as_expected,comfort,none
+R0653,ORD884811,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Size/Fit,tight around waist,2026-04-18,fit,too_small,waist
+R0654,ORD918120,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XS,Damaged/Defective,,2026-07-12,damaged_defective,zip,none
+R0655,ORD278154,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Other,piece damaged tha,2026-05-26,damaged_defective,hole,none
+R0656,ORD796555,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Colour Mismatch,online shade aur tha,2026-09-05,appearance_issue,print_mismatch,none
+R0657,ORD414523,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Other,too long for my height,2026-08-10,fit,too_long,length
+R0658,ORD165976,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Size/Fit,shoulder drop bahut zyada,2026-05-01,fit,too_large,shoulder
+R0659,ORD328886,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Size/Fit,,2026-05-09,fit,too_large,waist
+R0660,ORD756468,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Colour Mismatch,,2026-05-15,appearance_issue,print_mismatch,none
+R0661,ORD711875,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Delivery Issue,,2026-06-23,delivery_issue,late_delivery,none
+R0662,ORD256421,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Other,arms move nahi ho raha properly,2026-09-24,fit,too_small,shoulder
+R0663,ORD729386,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Other,kamr bhut loose,2026-08-16,fit,too_large,waist
+R0664,ORD485522,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Other,wrong colour delivered,2026-08-15,wrong_item,wrong_product_or_variant,none
+R0665,ORD879251,KID-450,Kids Festive Set,Kidswear,Vendor_12,4-5Y,Size/Fit,length short he,2026-07-01,fit,too_short,length
+R0666,ORD168172,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Other,arms move nahi ho raha properly,2026-04-24,fit,too_small,shoulder
+R0667,ORD571868,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Changed Mind,not needed now,2026-06-02,changed_mind,preference_or_no_longer_needed,none
+R0668,ORD892376,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,12-13Y,Other,"expected longer, ye short hai",2026-07-17,fit,too_short,length
+R0669,ORD203990,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Product Not as Expected,,2026-06-05,product_not_as_expected,style_mismatch,none
+R0670,ORD840892,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Size/Fit,sleeve opening chota hai,2026-04-09,fit,too_small,sleeves
+R0671,ORD878871,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Other,"upper body tight, especially chest",2026-08-29,fit,too_small,chest
+R0672,ORD329100,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Other,button missing,2026-07-24,damaged_defective,button,none
+R0673,ORD840207,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,L,Other,shoulder fit small,2026-07-17,fit,too_small,shoulder
+R0674,ORD675582,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Other,waist pe tight hai,2026-06-14,fit,too_small,waist
+R0675,ORD155179,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,12-13Y,Size/Fit,,2026-07-20,fit,too_long,length
+R0676,ORD528898,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Quality/Fabric,quality photo jaisa nahi,2026-09-04,quality_issue,fabric_quality,none
+R0677,ORD800182,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Quality/Fabric,material cheap feel ho raha,2026-09-05,quality_issue,material_mismatch,none
+R0678,ORD599197,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Damaged/Defective,,2026-06-13,damaged_defective,stitching,none
+R0679,ORD684693,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Other,size chota h chest pe,2026-04-06,fit,too_small,chest
+R0680,ORD512188,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Other,bahut chota length,2026-09-19,fit,too_short,length
+R0681,ORD408672,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Other,picture mein bright tha actual dull hai,2026-08-01,appearance_issue,shade_mismatch,none
+R0682,ORD113912,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Damaged/Defective,,2026-09-26,damaged_defective,zip,none
+R0683,ORD856004,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Changed Mind,,2026-05-08,changed_mind,preference_or_no_longer_needed,none
+R0684,ORD213688,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Other,waist fitting badi hai,2026-05-04,fit,too_large,waist
+R0685,ORD746479,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Other,bahut lamba hai,2026-04-02,fit,too_long,length
+R0686,ORD205857,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Other,waist se loose h,2026-05-05,fit,too_large,waist
+R0687,ORD891820,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Wrong Item,,2026-07-30,wrong_item,wrong_product_or_variant,none
+R0688,ORD741980,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Size/Fit,chest tight ho raha tha,2026-06-12,fit,too_small,chest
+R0689,ORD161306,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,M,Wrong Item,wrong item mila,2026-08-03,wrong_item,wrong_product_or_variant,none
+R0690,ORD846976,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,M,Wrong Item,size wrong bheja,2026-09-09,wrong_item,wrong_product_or_variant,none
+R0691,ORD425934,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,kandhe pe kheench raha hai,2026-06-11,fit,too_small,shoulder
+R0692,ORD568379,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Damaged/Defective,,2026-07-01,damaged_defective,stitching,none
+R0693,ORD132119,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Other,cloth itchy hai,2026-06-02,quality_issue,fabric_quality,none
+R0694,ORD885190,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,cloth itchy hai,2026-05-18,quality_issue,fabric_quality,none
+R0695,ORD161258,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Other,chest tight ho raha tha pls,2026-06-05,fit,too_small,chest
+R0696,ORD532980,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Quality/Fabric,expected cotton but material different,2026-08-18,quality_issue,material_mismatch,none
+R0697,ORD517964,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Other,color bilkul different aya,2026-05-04,appearance_issue,print_mismatch,none
+R0698,ORD961806,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,12-13Y,Changed Mind,,2026-06-28,changed_mind,preference_or_no_longer_needed,none
+R0699,ORD105830,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Size/Fit,arms move nahi ho raha properly,2026-07-24,fit,too_small,shoulder
+R0700,ORD384505,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,M,Damaged/Defective,dusra product bhej diya,2026-08-27,damaged_defective,hole,none
+R0701,ORD350074,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Size/Fit,,2026-04-22,fit,too_small,waist
+R0702,ORD619376,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Size/Fit,,2026-09-27,fit,too_large,shoulder
+R0703,ORD317847,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Damaged/Defective,,2026-07-30,damaged_defective,button,none
+R0704,ORD773856,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Changed Mind,,2026-08-18,changed_mind,preference_or_no_longer_needed,none
+R0705,ORD898815,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Other,bahut transparent hai,2026-04-09,product_not_as_expected,transparency,none
+R0706,ORD694927,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Other,size bada pad gaya waist mein,2026-07-19,fit,too_large,waist
+R0707,ORD284480,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Other,chest tight ho raha tha,2026-08-03,fit,too_small,chest
+R0708,ORD596606,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XXL,Other,pehenne mein comfortable nahi,2026-05-24,product_not_as_expected,comfort,none
+R0709,ORD489723,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,12-13Y,Wrong Item,,2026-05-05,wrong_item,wrong_product_or_variant,none
+R0710,ORD943843,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Wrong Item,,2026-04-13,wrong_item,wrong_product_or_variant,none
+R0711,ORD603270,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,size chota hai chest pe,2026-08-08,fit,too_small,chest
+R0712,ORD430239,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Delivery Issue,,2026-04-10,delivery_issue,package_damage,none
+R0713,ORD676986,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Other,size hi wrong bheja,2026-04-11,wrong_item,wrong_product_or_variant,none
+R0714,ORD250202,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,12-13Y,Other,late delivery so returning,2026-05-18,delivery_issue,late_delivery,none
+R0715,ORD543358,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XS,Damaged/Defective,,2026-08-25,damaged_defective,button,none
+R0716,ORD382572,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Other,too loose at shoulder yaar,2026-06-10,fit,too_large,shoulder
+R0717,ORD376439,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Changed Mind,not needed now,2026-08-21,changed_mind,preference_or_no_longer_needed,none
+R0718,ORD925631,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Wrong Item,,2026-04-21,wrong_item,wrong_product_or_variant,none
+R0719,ORD152459,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,L,Other,ab nahi chahiye,2026-07-16,changed_mind,preference_or_no_longer_needed,none
+R0720,ORD476077,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Other,print different lag raha,2026-06-04,appearance_issue,colour_mismatch,none
+R0721,ORD632895,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Other,waist mein fit nahi hua,2026-06-23,fit,too_small,waist
+R0722,ORD352952,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Size/Fit,,2026-09-17,fit,too_small,shoulder
+R0723,ORD575787,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Size/Fit,chest se tight haii,2026-05-18,fit,too_small,chest
+R0724,ORD511340,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Colour Mismatch,colour mismatch,2026-07-17,appearance_issue,colour_mismatch,none
+R0725,ORD356849,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,S,Product Not as Expected,pehenne mein comfortable nahi,2026-06-08,product_not_as_expected,style_mismatch,none
+R0726,ORD222232,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,kamr bahut loose pls,2026-07-19,fit,too_large,waist
+R0727,ORD971855,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Other,pehenne mein comfortable nahi,2026-06-11,product_not_as_expected,comfort,none
+R0728,ORD733936,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Other,bht lamba haii,2026-05-30,fit,too_long,length
+R0729,ORD422021,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Colour Mismatch,,2026-08-20,appearance_issue,shade_mismatch,none
+R0730,ORD506227,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,waist se loose hai,2026-08-01,fit,too_large,waist
+R0731,ORD991736,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Other,online shade aur tha,2026-06-10,appearance_issue,colour_mismatch,none
+R0732,ORD176086,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Other,"model pe different lag raha tha, actual look alag hai",2026-09-01,product_not_as_expected,style_mismatch,none
+R0733,ORD885397,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,6-7Y,Other,"upper body tight, especially chest",2026-04-15,fit,too_small,chest
+R0734,ORD770730,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Wrong Item,different colour delivered,2026-08-16,wrong_item,wrong_product_or_variant,none
+R0735,ORD680463,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Damaged/Defective,,2026-07-11,damaged_defective,defect,none
+R0736,ORD611467,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XXL,Other,tight around waist,2026-08-15,fit,too_small,waist
+R0737,ORD694161,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XL,Other,kandha bada pad raha,2026-04-14,fit,too_large,shoulder
+R0738,ORD445445,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Other,loose around waist,2026-09-24,fit,too_large,waist
+R0739,ORD839116,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XL,Other,print different lag raha,2026-09-06,appearance_issue,print_mismatch,none
+R0740,ORD488843,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,L,Delivery Issue,bahut late aya,2026-05-13,delivery_issue,package_damage,none
+R0741,ORD557996,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,12-13Y,Changed Mind,,2026-08-31,changed_mind,preference_or_no_longer_needed,none
+R0742,ORD872490,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Quality/Fabric,,2026-05-27,quality_issue,fabric_quality,none
+R0743,ORD814997,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XXL,Changed Mind,pasand nahi aya,2026-05-19,changed_mind,preference_or_no_longer_needed,none
+R0744,ORD344000,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Quality/Fabric,,2026-06-20,quality_issue,fabric_quality,none
+R0745,ORD782290,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,L,Colour Mismatch,,2026-07-10,appearance_issue,shade_mismatch,none
+R0746,ORD639817,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Other,sleeves tight hai,2026-09-13,fit,too_small,sleeves
+R0747,ORD345516,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,M,Damaged/Defective,,2026-06-27,damaged_defective,button,none
+R0748,ORD685923,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Size/Fit,,2026-05-11,fit,too_large,chest
+R0749,ORD378238,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Damaged/Defective,,2026-04-11,damaged_defective,hole,none
+R0750,ORD644069,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XXL,Size/Fit,upper body bahut loose,2026-09-02,fit,too_large,chest
+R0751,ORD251654,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Size/Fit,,2026-09-17,fit,too_large,waist
+R0752,ORD236654,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Damaged/Defective,wrong colour delivered,2026-08-09,damaged_defective,hole,none
+R0753,ORD812182,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Size/Fit,,2026-08-05,fit,too_large,waist
+R0754,ORD846419,KID-450,Kids Festive Set,Kidswear,Vendor_12,12-13Y,Changed Mind,ab nahi chahiye!!!,2026-07-14,changed_mind,preference_or_no_longer_needed,none
+R0755,ORD460514,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Damaged/Defective,,2026-07-23,damaged_defective,zip,none
+R0756,ORD180527,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,S,Changed Mind,,2026-09-15,changed_mind,preference_or_no_longer_needed,none
+R0757,ORD551208,KID-450,Kids Festive Set,Kidswear,Vendor_12,4-5Y,Wrong Item,,2026-05-24,wrong_item,wrong_product_or_variant,none
+R0758,ORD153913,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Other,bahut chota length,2026-07-03,fit,too_short,length
+R0759,ORD367344,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Other,arms tight but body okay,2026-09-19,fit,too_small,sleeves
+R0760,ORD154371,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Size/Fit,too long for my height,2026-08-18,fit,too_long,length
+R0761,ORD508114,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Other,look suit nahi kiya,2026-05-24,changed_mind,preference_or_no_longer_needed,none
+R0762,ORD249881,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Other,hole tha product mein,2026-05-01,damaged_defective,zip,none
+R0763,ORD832743,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Size/Fit,,2026-09-04,fit,too_short,length
+R0764,ORD102417,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Colour Mismatch,,2026-07-03,appearance_issue,colour_mismatch,none
+R0765,ORD228447,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Delivery Issue,,2026-05-11,delivery_issue,package_damage,none
+R0766,ORD129474,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Size/Fit,upper body bahut loose,2026-05-10,fit,too_large,chest
+R0767,ORD473222,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Other,bada hai chest se,2026-06-03,fit,too_large,chest
+R0768,ORD854272,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Size/Fit,,2026-04-13,fit,too_short,length
+R0769,ORD769022,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Other,too long for my height,2026-05-18,fit,too_long,length
+R0770,ORD785030,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Other,sleeves tight hai pls,2026-07-24,fit,too_small,sleeves
+R0771,ORD199103,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Size/Fit,fit small at chest,2026-09-26,fit,too_small,chest
+R0772,ORD216712,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Damaged/Defective,zip broken hai,2026-09-14,damaged_defective,defect,none
+R0773,ORD831069,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,4-5Y,Damaged/Defective,,2026-06-19,damaged_defective,button,none
+R0774,ORD359611,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Other,baazu mein tight,2026-04-13,fit,too_small,sleeves
+R0775,ORD804379,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,S,Other,office wear socha tha but too casual,2026-09-22,product_not_as_expected,style_mismatch,none
+R0776,ORD286677,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Damaged/Defective,,2026-05-27,damaged_defective,button,none
+R0777,ORD135598,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Other,shoulder drop bahut zyada,2026-06-03,fit,too_large,shoulder
+R0778,ORD362193,KID-450,Kids Festive Set,Kidswear,Vendor_12,4-5Y,Other,quality photo jaisa nahi,2026-05-21,quality_issue,material_mismatch,none
+R0779,ORD899806,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Quality/Fabric,,2026-08-13,quality_issue,material_mismatch,none
+R0780,ORD675777,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Other,fabric dekh ke lag raha wash mein shrink hoga,2026-06-22,product_not_as_expected,shrinkage_concern,none
+R0781,ORD941388,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XXL,Other,upper body bahut loose,2026-09-15,fit,too_large,chest
+R0782,ORD423788,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Damaged/Defective,,2026-06-01,damaged_defective,stitching,none
+R0783,ORD124944,KID-450,Kids Festive Set,Kidswear,Vendor_12,8-9Y,Quality/Fabric,cloth itchy hai,2026-09-03,quality_issue,fabric_quality,none
+R0784,ORD211134,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,M,Other,bada haii chest se,2026-05-01,fit,too_large,chest
+R0785,ORD359566,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XS,Damaged/Defective,,2026-07-30,damaged_defective,stitching,none
+R0786,ORD379421,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XS,Damaged/Defective,,2026-07-30,damaged_defective,stitching,none
+R0787,ORD851728,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Other,chest tight ho raha tha,2026-07-25,fit,too_small,chest
+R0788,ORD434842,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Delivery Issue,,2026-09-24,delivery_issue,late_delivery,none
+R0789,ORD586381,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Other,kandha bada pad raha ..,2026-09-09,fit,too_large,shoulder
+R0790,ORD204390,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Other,bada hai chest se,2026-05-15,fit,too_large,chest
+R0791,ORD313249,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Other,pasand nahi aya,2026-07-14,changed_mind,preference_or_no_longer_needed,none
+R0792,ORD296596,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,M,Wrong Item,different colour delivered,2026-06-01,wrong_item,wrong_product_or_variant,none
+R0793,ORD380563,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XS,Damaged/Defective,wrong colour delivered,2026-04-02,damaged_defective,defect,none
+R0794,ORD917415,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Damaged/Defective,button missing,2026-05-26,damaged_defective,defect,none
+R0795,ORD698084,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Other,sleeve fit nahi hua,2026-04-08,fit,too_small,sleeves
+R0796,ORD919602,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Other,design photo se match nahi karta,2026-06-29,appearance_issue,print_mismatch,none
+R0797,ORD335593,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Other,return karna hai,2026-04-05,unclear,insufficient_information,none
+R0798,ORD541990,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,8-9Y,Other,bahut chota length,2026-08-06,fit,too_short,length
+R0799,ORD365453,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,size chota hai chest pe,2026-08-01,fit,too_small,chest
+R0800,ORD205518,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Changed Mind,,2026-05-14,changed_mind,preference_or_no_longer_needed,none
+R0801,ORD158545,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,M,Changed Mind,mummy ko pasand nahi aya,2026-04-13,changed_mind,preference_or_no_longer_needed,none
+R0802,ORD782250,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Size/Fit,,2026-08-28,fit,too_large,shoulder
+R0803,ORD642338,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Other,material cheap feel ho raha,2026-07-20,quality_issue,fabric_quality,none
+R0804,ORD575807,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,chest area mein bilkul space nahi,2026-04-13,fit,too_small,chest
+R0805,ORD315210,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XL,Wrong Item,wrong item mila,2026-09-21,wrong_item,wrong_product_or_variant,none
+R0806,ORD770672,KID-450,Kids Festive Set,Kidswear,Vendor_12,8-9Y,Wrong Item,different colour delivered,2026-08-30,wrong_item,wrong_product_or_variant,none
+R0807,ORD453714,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Damaged/Defective,,2026-08-21,damaged_defective,button,none
+R0808,ORD883312,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XL,Quality/Fabric,,2026-09-21,quality_issue,comfort,none
+R0809,ORD815657,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Quality/Fabric,wash ke pehle hi rough feel,2026-06-30,quality_issue,material_mismatch,none
+R0810,ORD621870,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Wrong Item,,2026-08-30,wrong_item,wrong_product_or_variant,none
+R0811,ORD740947,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,L,Other,material comfortable nahi,2026-08-31,quality_issue,comfort,none
+R0812,ORD772867,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,S,Other,wrong item mila,2026-06-27,wrong_item,wrong_product_or_variant,none
+R0813,ORD655974,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,M,Wrong Item,,2026-04-19,wrong_item,wrong_product_or_variant,none
+R0814,ORD795443,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Other,delivery late thi,2026-09-04,delivery_issue,late_delivery,none
+R0815,ORD443376,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Other,loose around waist,2026-09-22,fit,too_large,waist
+R0816,ORD515925,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Other,office wear socha tha but too casual,2026-08-16,product_not_as_expected,style_mismatch,none
+R0817,ORD887478,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XS,Other,fabric rough hai ..,2026-06-26,quality_issue,fabric_quality,none
+R0818,ORD858998,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Other,picture mein bright tha actual dull hai,2026-08-28,appearance_issue,print_mismatch,none
+R0819,ORD986052,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Other,neeche tak extra aa raha pls,2026-08-26,fit,too_long,length
+R0820,ORD696259,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Changed Mind,,2026-07-10,changed_mind,preference_or_no_longer_needed,none
+R0821,ORD951448,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,colour mismatch,2026-07-30,appearance_issue,shade_mismatch,none
+R0822,ORD199110,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Size/Fit,,2026-04-07,fit,too_small,waist
+R0823,ORD414773,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Size/Fit,size okay but waist tight,2026-07-21,fit,too_small,waist
+R0824,ORD852848,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XXL,Size/Fit,,2026-09-02,fit,too_large,chest
+R0825,ORD492932,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,S,Other,fabric rough hai,2026-06-18,quality_issue,comfort,none
+R0826,ORD605021,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Other,pehenne mein comfortable nahi,2026-05-11,product_not_as_expected,comfort,none
+R0827,ORD962367,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,S,Size/Fit,,2026-04-02,fit,too_large,waist
+R0828,ORD927400,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Damaged/Defective,,2026-07-30,damaged_defective,zip,none
+R0829,ORD389355,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Colour Mismatch,,2026-06-17,appearance_issue,print_mismatch,none
+R0830,ORD577590,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,S,Wrong Item,different colour delivered,2026-08-15,wrong_item,wrong_product_or_variant,none
+R0831,ORD866620,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Size/Fit,fit small at chest yaar,2026-09-22,fit,too_small,chest
+R0832,ORD182033,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Other,bahut chota length,2026-05-05,fit,too_short,length
+R0833,ORD163884,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,6-7Y,Other,neeche tak extra aa raha,2026-06-11,fit,too_long,length
+R0834,ORD214302,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Delivery Issue,late delivery so returning,2026-08-04,delivery_issue,package_damage,none
+R0835,ORD961302,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Delivery Issue,,2026-08-03,delivery_issue,package_damage,none
+R0836,ORD385848,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Other,didn't like,2026-05-16,unclear,insufficient_information,none
+R0837,ORD730039,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XL,Other,kandhe pe kheench raha hai,2026-09-01,fit,too_small,shoulder
+R0838,ORD580751,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XXL,Quality/Fabric,,2026-04-22,quality_issue,comfort,none
+R0839,ORD640838,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,4-5Y,Other,sleeve fit nahi hua,2026-06-22,fit,too_small,sleeves
+R0840,ORD119851,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Wrong Item,wrong item mila,2026-06-06,wrong_item,wrong_product_or_variant,none
+R0841,ORD529078,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XS,Wrong Item,,2026-09-07,wrong_item,wrong_product_or_variant,none
+R0842,ORD723302,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,L,Colour Mismatch,,2026-07-27,appearance_issue,print_mismatch,none
+R0843,ORD395311,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Delivery Issue,bahut late aya,2026-04-04,delivery_issue,package_damage,none
+R0844,ORD139568,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Damaged/Defective,piece damaged tha,2026-06-03,damaged_defective,zip,none
+R0845,ORD274489,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XXL,Quality/Fabric,,2026-07-06,quality_issue,fabric_quality,none
+R0846,ORD655058,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Product Not as Expected,,2026-07-24,product_not_as_expected,style_mismatch,none
+R0847,ORD491672,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Size/Fit,,2026-06-02,fit,too_small,shoulder
+R0848,ORD297576,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Damaged/Defective,,2026-07-26,damaged_defective,stitching,none
+R0849,ORD765787,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XXL,Size/Fit,shoulder drop bohot zyada,2026-09-02,fit,too_large,shoulder
+R0850,ORD141567,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,length expected se zyada,2026-05-11,fit,too_long,length
+R0851,ORD187133,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XXL,Delivery Issue,delivery late thi,2026-05-05,delivery_issue,late_delivery,none
+R0852,ORD623749,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,8-9Y,Other,baazu mein tight ..,2026-09-26,fit,too_small,sleeves
+R0853,ORD311035,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Other,shade expected jaisa nahi,2026-05-29,appearance_issue,print_mismatch,none
+R0854,ORD911460,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Other,bahut chota length yaar,2026-06-24,fit,too_short,length
+R0855,ORD644763,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Other,fabric quality poor,2026-06-28,quality_issue,comfort,none
+R0856,ORD418574,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XS,Product Not as Expected,fabric dekh ke lag raha wash mein shrink hoga,2026-04-24,product_not_as_expected,transparency,none
+R0857,ORD628818,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Other,waist fitting badi hai,2026-09-20,fit,too_large,waist
+R0858,ORD857529,KID-450,Kids Festive Set,Kidswear,Vendor_12,12-13Y,Size/Fit,,2026-04-24,fit,too_small,chest
+R0859,ORD265499,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Other,shoulder tight he,2026-07-07,fit,too_small,shoulder
+R0860,ORD363023,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Size/Fit,sleeve opening chota hai,2026-04-22,fit,too_small,sleeves
+R0861,ORD924824,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,S,Other,bada hai chest se,2026-05-22,fit,too_large,chest
+R0862,ORD885954,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Other,length jyada hai mere liye,2026-07-16,fit,too_long,length
+R0863,ORD981019,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Colour Mismatch,,2026-05-12,appearance_issue,print_mismatch,none
+R0864,ORD570537,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Size/Fit,,2026-07-10,fit,too_small,shoulder
+R0865,ORD827801,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XXL,Changed Mind,,2026-08-09,changed_mind,preference_or_no_longer_needed,none
+R0866,ORD783593,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Quality/Fabric,,2026-05-18,quality_issue,fabric_quality,none
+R0867,ORD903408,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Other,bada hai chest se,2026-04-06,fit,too_large,chest
+R0868,ORD733861,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,M,Wrong Item,,2026-09-01,wrong_item,wrong_product_or_variant,none
+R0869,ORD894806,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XS,Quality/Fabric,kapda bahut patla h,2026-05-10,quality_issue,comfort,none
+R0870,ORD877753,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Quality/Fabric,,2026-05-04,quality_issue,comfort,none
+R0871,ORD271164,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Quality/Fabric,,2026-05-28,quality_issue,comfort,none
+R0872,ORD357174,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Damaged/Defective,,2026-07-19,damaged_defective,zip,none
+R0873,ORD980981,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Quality/Fabric,quality photo jaisa nahi,2026-09-22,quality_issue,fabric_quality,none
+R0874,ORD659954,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,S,Changed Mind,,2026-04-26,changed_mind,preference_or_no_longer_needed,none
+R0875,ORD353688,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,S,Other,cloth itchy hai,2026-04-29,quality_issue,material_mismatch,none
+R0876,ORD569038,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Delivery Issue,,2026-06-08,delivery_issue,late_delivery,none
+R0877,ORD335813,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,arms move nahi ho raha properly,2026-07-11,fit,too_small,shoulder
+R0878,ORD793940,KID-450,Kids Festive Set,Kidswear,Vendor_12,10-11Y,Size/Fit,mere liye too short,2026-07-24,fit,too_short,length
+R0879,ORD641477,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,L,Other,size hi wrong bheja,2026-08-03,wrong_item,wrong_product_or_variant,none
+R0880,ORD793201,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,XL,Colour Mismatch,,2026-06-16,appearance_issue,colour_mismatch,none
+R0881,ORD202024,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Other,material comfortable nahi,2026-04-24,quality_issue,material_mismatch,none
+R0882,ORD800088,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Other,too long for my height,2026-09-08,fit,too_long,length
+R0883,ORD194453,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XL,Other,bahut lamba hai,2026-09-06,fit,too_long,length
+R0884,ORD128643,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Changed Mind,,2026-09-05,changed_mind,preference_or_no_longer_needed,none
+R0885,ORD388694,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Size/Fit,shoulder drop bhut zyada,2026-09-09,fit,too_large,shoulder
+R0886,ORD388703,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,S,Wrong Item,wrong item mila,2026-04-11,wrong_item,wrong_product_or_variant,none
+R0887,ORD975256,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Other,actual colour darker hai,2026-06-02,appearance_issue,print_mismatch,none
+R0888,ORD196559,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Colour Mismatch,,2026-04-06,appearance_issue,colour_mismatch,none
+R0889,ORD406030,KID-450,Kids Festive Set,Kidswear,Vendor_12,8-9Y,Other,print different lag raha,2026-08-02,appearance_issue,colour_mismatch,none
+R0890,ORD263604,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,L,Colour Mismatch,photo mein colour alag tha,2026-04-18,appearance_issue,colour_mismatch,none
+R0891,ORD951213,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Size/Fit,size bada pad gaya waist mein,2026-04-22,fit,too_large,waist
+R0892,ORD557173,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,4-5Y,Quality/Fabric,,2026-05-26,quality_issue,fabric_quality,none
+R0893,ORD102894,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XL,Size/Fit,,2026-08-02,fit,too_large,chest
+R0894,ORD798869,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,M,Quality/Fabric,,2026-07-25,quality_issue,fabric_quality,none
+R0895,ORD759045,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,M,Size/Fit,size okay but waist tight!!!,2026-04-05,fit,too_small,waist
+R0896,ORD434927,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Other,size bada pad gaya waist mein,2026-05-01,fit,too_large,waist
+R0897,ORD621549,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Size/Fit,,2026-09-01,fit,too_small,shoulder
+R0898,ORD434992,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XXL,Quality/Fabric,,2026-05-17,quality_issue,comfort,none
+R0899,ORD883169,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XS,Size/Fit,kandhe pe kheench raha hai,2026-08-21,fit,too_small,shoulder
+R0900,ORD279758,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Quality/Fabric,,2026-06-10,quality_issue,fabric_quality,none
+R0901,ORD737696,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,XS,Product Not as Expected,pehenne mein comfortable nahi,2026-04-27,product_not_as_expected,style_mismatch,none
+R0902,ORD622930,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Wrong Item,,2026-08-27,wrong_item,wrong_product_or_variant,none
+R0903,ORD415260,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,6-7Y,Size/Fit,,2026-07-15,fit,too_small,shoulder
+R0904,ORD497267,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XXL,Size/Fit,length expected se zyada,2026-07-27,fit,too_long,length
+R0905,ORD951164,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Wrong Item,,2026-04-04,wrong_item,wrong_product_or_variant,none
+R0906,ORD460735,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Other,arms move nahi ho raha properly,2026-04-13,fit,too_small,shoulder
+R0907,ORD739157,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,XL,Delivery Issue,late delivery so returning ..,2026-08-09,delivery_issue,late_delivery,none
+R0908,ORD181296,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Other,size okay but waist tight,2026-08-11,fit,too_small,waist
+R0909,ORD569843,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XL,Other,actual colour darker hai,2026-09-09,appearance_issue,print_mismatch,none
+R0910,ORD500296,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Other,package damaged in delivery,2026-04-23,delivery_issue,late_delivery,none
+R0911,ORD655645,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Size/Fit,,2026-09-13,fit,too_large,shoulder
+R0912,ORD372006,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,12-13Y,Other,quality photo jaisa nahi,2026-07-20,quality_issue,material_mismatch,none
+R0913,ORD200638,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,S,Size/Fit,,2026-04-11,fit,too_long,length
+R0914,ORD990351,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Damaged/Defective,,2026-05-06,damaged_defective,hole,none
+R0915,ORD616525,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,S,Damaged/Defective,,2026-05-04,damaged_defective,hole,none
+R0916,ORD153281,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Other,button missing,2026-05-02,damaged_defective,zip,none
+R0917,ORD284534,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Quality/Fabric,,2026-09-19,quality_issue,fabric_quality,none
+R0918,ORD836677,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,chest area mein bilkul space nahi,2026-05-24,fit,too_small,chest
+R0919,ORD470347,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Size/Fit,,2026-09-02,fit,too_small,sleeves
+R0920,ORD936318,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Other,no,2026-07-09,unclear,insufficient_information,none
+R0921,ORD885906,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Other,bad,2026-07-18,unclear,insufficient_information,none
+R0922,ORD167297,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Colour Mismatch,color bilkul different aya,2026-05-05,appearance_issue,print_mismatch,none
+R0923,ORD942359,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,10-11Y,Wrong Item,,2026-04-23,wrong_item,wrong_product_or_variant,none
+R0924,ORD365169,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Other,photo mein jo look tha actual mein waise nahi ..,2026-08-24,product_not_as_expected,style_mismatch,none
+R0925,ORD455559,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,M,Quality/Fabric,expected cotton but material different,2026-05-10,quality_issue,material_mismatch,none
+R0926,ORD325061,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,S,Size/Fit,arms move nahi ho raha properly,2026-04-24,fit,too_small,shoulder
+R0927,ORD659904,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,M,Colour Mismatch,design photo se match nahi karta,2026-08-21,appearance_issue,shade_mismatch,none
+R0928,ORD127180,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,M,Other,not needed now!!!,2026-08-07,changed_mind,preference_or_no_longer_needed,none
+R0929,ORD918725,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XXL,Size/Fit,too long for my height ..,2026-07-03,fit,too_long,length
+R0930,ORD673305,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XXL,Size/Fit,"expected longer, ye short hai pls",2026-06-01,fit,too_short,length
+R0931,ORD280867,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Size/Fit,length kam hai,2026-07-05,fit,too_short,length
+R0932,ORD340206,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Colour Mismatch,,2026-05-24,appearance_issue,colour_mismatch,none
+R0933,ORD560647,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Other,design photo se match nahi karta,2026-05-17,appearance_issue,shade_mismatch,none
+R0934,ORD984018,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Other,shoulder fitting badi hai,2026-09-21,fit,too_large,shoulder
+R0935,ORD900023,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,L,Other,baazu mein tight,2026-08-16,fit,too_small,sleeves
+R0936,ORD264941,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,L,Colour Mismatch,,2026-06-25,appearance_issue,colour_mismatch,none
+R0937,ORD481969,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XXL,Quality/Fabric,,2026-08-12,quality_issue,comfort,none
+R0938,ORD357267,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XXL,Product Not as Expected,,2026-05-31,product_not_as_expected,occasion_unsuitable,none
+R0939,ORD554259,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,S,Other,material cheap feel ho raha,2026-06-26,quality_issue,material_mismatch,none
+R0940,ORD422498,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Quality/Fabric,wash ke pehle hi rough feel,2026-07-05,quality_issue,fabric_quality,none
+R0941,ORD617729,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XL,Product Not as Expected,mehndi ke liye liya tha but festive enough nahi pls,2026-05-21,product_not_as_expected,occasion_unsuitable,none
+R0942,ORD726296,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Product Not as Expected,,2026-07-24,product_not_as_expected,comfort,none
+R0943,ORD990052,MEN-522,Men Casual Shirt,Mens Basics,Vendor_01,M,Damaged/Defective,stitching open thi,2026-05-08,damaged_defective,hole,none
+R0944,ORD834714,KID-450,Kids Festive Set,Kidswear,Vendor_12,2-3Y,Other,kandhe pe kheench raha he,2026-05-13,fit,too_small,shoulder
+R0945,ORD477338,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Other,"upper body tight, especially chest",2026-05-02,fit,too_small,chest
+R0946,ORD118447,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XL,Damaged/Defective,,2026-09-20,damaged_defective,hole,none
+R0947,ORD685035,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,L,Changed Mind,mummy ko pasand nahi aya,2026-06-02,changed_mind,preference_or_no_longer_needed,none
+R0948,ORD127499,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Other,mehndi ke liye liya tha but festive enough nahi,2026-05-07,product_not_as_expected,occasion_unsuitable,none
+R0949,ORD492554,KID-450,Kids Festive Set,Kidswear,Vendor_12,8-9Y,Other,bhut synthetic lag raha hai,2026-06-21,quality_issue,comfort,none
+R0950,ORD393463,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,length expected se zyada,2026-05-22,fit,too_long,length
+R0951,ORD635226,KID-450,Kids Festive Set,Kidswear,Vendor_12,6-7Y,Other,shade expected jaisa nahi,2026-08-26,appearance_issue,print_mismatch,none
+R0952,ORD519391,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XL,Other,button missing,2026-04-05,damaged_defective,hole,none
+R0953,ORD540608,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,M,Other,ab nahi chahiye,2026-05-26,changed_mind,preference_or_no_longer_needed,none
+R0954,ORD586740,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XL,Product Not as Expected,,2026-05-30,product_not_as_expected,transparency,none
+R0955,ORD865842,MEN-540,Men Cotton Joggers,Mens Basics,Vendor_12,XXL,Damaged/Defective,defective piece received,2026-07-05,damaged_defective,hole,none
+R0956,ORD736449,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,8-9Y,Other,chest se tight hai,2026-06-26,fit,too_small,chest
+R0957,ORD653068,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XXL,Other,length expected se zyada,2026-07-06,fit,too_long,length
+R0958,ORD375452,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,4-5Y,Other,delivery delay hua,2026-04-22,delivery_issue,late_delivery,none
+R0959,ORD214433,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,XS,Damaged/Defective,,2026-09-23,damaged_defective,hole,none
+R0960,ORD224783,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,L,Other,print different lag raha,2026-04-26,appearance_issue,print_mismatch,none
+R0961,ORD693365,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XS,Colour Mismatch,online shade aur tha,2026-06-22,appearance_issue,shade_mismatch,none
+R0962,ORD103557,KID-450,Kids Festive Set,Kidswear,Vendor_12,12-13Y,Other,package damaged in delivery,2026-04-03,delivery_issue,package_damage,none
+R0963,ORD759078,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,L,Size/Fit,waist fitting badi h,2026-07-16,fit,too_large,waist
+R0964,ORD779679,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,L,Changed Mind,mummy ko pasand nahi aya,2026-09-19,changed_mind,preference_or_no_longer_needed,none
+R0965,ORD475367,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,S,Size/Fit,,2026-05-28,fit,too_large,chest
+R0966,ORD942219,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Other,not good,2026-04-14,unclear,insufficient_information,none
+R0967,ORD691241,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,L,Size/Fit,,2026-04-10,fit,too_large,chest
+R0968,ORD769231,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Other,arms tight but body okay,2026-07-17,fit,too_small,sleeves
+R0969,ORD279951,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,M,Other,length expected se zyada,2026-04-01,fit,too_long,length
+R0970,ORD318808,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Other,not good,2026-04-03,unclear,insufficient_information,none
+R0971,ORD104688,TOP-301,Ribbed Casual Top,Womenswear,Vendor_05,L,Size/Fit,size okay but waist tight,2026-08-17,fit,too_small,waist
+R0972,ORD678890,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XXL,Other,chest tight ho raha tha,2026-07-02,fit,too_small,chest
+R0973,ORD467181,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,4-5Y,Other,photo mein jo look tha actual mein waise nahi,2026-05-21,product_not_as_expected,style_mismatch,none
+R0974,ORD512439,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Product Not as Expected,,2026-08-16,product_not_as_expected,transparency,none
+R0975,ORD650151,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,10-11Y,Other,bada hai chest se,2026-09-11,fit,too_large,chest
+R0976,ORD445656,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XL,Other,waist fitting choti hai,2026-05-30,fit,too_small,waist
+R0977,ORD666668,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,2-3Y,Quality/Fabric,fabric rough hai,2026-06-30,quality_issue,comfort,none
+R0978,ORD458361,KID-450,Kids Festive Set,Kidswear,Vendor_12,12-13Y,Other,bht lamba hai,2026-04-02,fit,too_long,length
+R0979,ORD604379,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,12-13Y,Quality/Fabric,,2026-09-11,quality_issue,comfort,none
+R0980,ORD448815,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Other,size chota hai chest pe,2026-05-18,fit,too_small,chest
+R0981,ORD757828,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XXL,Other,office wear socha tha but too casual,2026-04-25,product_not_as_expected,style_mismatch,none
+R0982,ORD531589,SET-071,Printed Kurta Pant Set,Womenswear,Vendor_02,M,Other,look suit nahi kiya,2026-07-25,changed_mind,preference_or_no_longer_needed,none
+R0983,ORD450117,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,S,Other,mummy ko pasand nahi aya,2026-08-06,changed_mind,preference_or_no_longer_needed,none
+R0984,ORD258846,KRT-231,Cotton Office Kurti,Womenswear,Vendor_03,M,Other,cloth itchy hai,2026-06-22,quality_issue,comfort,none
+R0985,ORD449052,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,XXL,Other,shade expected jaisa nahi,2026-04-21,appearance_issue,print_mismatch,none
+R0986,ORD737006,DRS-144,Tiered Festive Dress,Womenswear,Vendor_09,XS,Size/Fit,,2026-07-16,fit,too_small,shoulder
+R0987,ORD320064,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,L,Other,no,2026-06-04,unclear,insufficient_information,none
+R0988,ORD797908,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,XS,Size/Fit,waist mein fit nahi hua,2026-05-17,fit,too_small,waist
+R0989,ORD438405,KID-425,Kids Printed T-Shirt,Kidswear,Vendor_06,2-3Y,Size/Fit,,2026-05-18,fit,too_large,shoulder
+R0990,ORD600453,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XS,Quality/Fabric,,2026-08-09,quality_issue,material_mismatch,none
+R0991,ORD243215,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,S,Product Not as Expected,photo mein jo look tha actual mein waise nahi,2026-04-28,product_not_as_expected,style_mismatch,none
+R0992,ORD559735,JNS-090,High Rise Straight Jeans,Womenswear,Vendor_04,XXL,Changed Mind,,2026-04-08,changed_mind,preference_or_no_longer_needed,none
+R0993,ORD188244,KRT-205,Printed A-Line Kurti,Womenswear,Vendor_12,XXL,Size/Fit,,2026-06-21,fit,too_large,chest
+R0994,ORD133130,DRS-118,Floral Midi Dress,Womenswear,Vendor_12,XXL,Wrong Item,,2026-07-26,wrong_item,wrong_product_or_variant,none
+R0995,ORD642686,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,L,Other,stitching open thi,2026-06-06,damaged_defective,stitching,none
+R0996,ORD827743,MEN-501,Men Solid Crew T-Shirt,Mens Basics,Vendor_10,XL,Other,kandha bada pad raha,2026-05-09,fit,too_large,shoulder
+R0997,ORD720008,KID-401,Kids Cotton Frock,Kidswear,Vendor_11,6-7Y,Changed Mind,,2026-08-25,changed_mind,preference_or_no_longer_needed,none
+R0998,ORD720362,TOP-318,Balloon Sleeve Top,Womenswear,Vendor_12,XL,Other,length jyada he mere liye,2026-05-07,fit,too_long,length
+R0999,ORD629448,JNS-106,Relaxed Fit Jeans,Womenswear,Vendor_08,L,Colour Mismatch,picture mein bright tha actual dull hai,2026-04-27,appearance_issue,colour_mismatch,none
+R1000,ORD812046,KRT-184,Embroidered Straight Kurti,Womenswear,Vendor_07,M,Damaged/Defective,,2026-09-25,damaged_defective,hole,none
