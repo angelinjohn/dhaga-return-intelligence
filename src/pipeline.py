@@ -3,6 +3,7 @@ import time
 from uuid import uuid4
 
 from langchain_core.runnables import RunnableLambda
+from langsmith import trace, tracing_context
 from pydantic import ValidationError
 
 from .config import Settings
@@ -100,6 +101,24 @@ class Pipeline:
         return chain.invoke(payload)
 
     def process(self, row):
+        # Do not trace the full row/result: callers may include evaluation labels.
+        with tracing_context(enabled=False if self.demo else None):
+            with trace("classify_return", inputs=model_input(row),
+                       tags=[PROMPT_VERSION, "return-classification"],
+                       metadata={"run_id": self.run_id, "return_id": row["return_id"],
+                                 "model_a": self.settings.model_a.identity,
+                                 "model_b": self.settings.model_b.identity,
+                                 "threshold_a": self.settings.threshold_a,
+                                 "threshold_b": self.settings.threshold_b}) as run:
+                result = self._process(row)
+                run.end(outputs={key: result[key] for key in (
+                    "automated_prediction", "automated_status", "escalated",
+                    "escalation_reason", "review_reason", "technical_fallback",
+                    "schema_failures", "processing_errors", "cost_usd",
+                )})
+                return result
+
+    def _process(self, row):
         start = time.perf_counter()
         initial = len(self.events)
         row_id = row["return_id"]

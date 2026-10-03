@@ -1,3 +1,4 @@
+from functools import partial
 from pathlib import Path
 import time
 import pandas as pd
@@ -9,6 +10,7 @@ from src.config import Settings
 from src.evaluator import evaluate
 from src.ingestion import read_upload, validate_data, split_data, is_other
 from src.pipeline import Pipeline
+from src.models import get_model
 from src.schemas import TAXONOMY, BODY_AREAS
 from src.storage import review_result, csv_export, json_export
 
@@ -38,6 +40,10 @@ h3{font-size:1.15rem!important;font-weight:600!important}
 .stDataFrame{border-radius:7px;overflow:hidden}
 footer{visibility:hidden}
 </style>""", unsafe_allow_html=True)
+
+
+def clear_api_key():
+    st.session_state.pop("personal_openai_key", None)
 
 
 def load_frame(frame, name):
@@ -177,8 +183,27 @@ elif page == "Upload & Process":
         settings.threshold_a = st.slider("Model A acceptance threshold", 0.0, 1.0, settings.threshold_a, 0.01)
         settings.threshold_b = st.slider("Model B acceptance threshold", 0.0, 1.0, settings.threshold_b, 0.01)
         st.caption("Confidence values are model-provided routing signals, not calibrated probabilities. Models and prices are configured in .env or host secrets.")
+    model_factory = get_model
+    credentials_ready = True
     if mode == "Live models":
-        st.info("Live processing sends synthetic comments to the configured model providers and incurs API charges. Keys must be configured on the server.")
+        credential_source = st.radio("API credentials", ["Use my OpenAI API key", "Use server credentials"])
+        st.info("Live processing sends return comments to the configured providers and incurs API charges. If enabled by the host, LangSmith tracing also receives comments and model outputs.")
+        if credential_source == "Use my OpenAI API key":
+            personal_key = st.text_input("OpenAI API key", type="password", key="personal_openai_key",
+                help="Sent securely to this app's server on HTTPS deployments, then used to authenticate OpenAI calls. Only use a deployment you trust.").strip()
+            st.button("Clear API key", on_click=clear_api_key)
+            st.caption("Your key is held in this session's memory, not written to disk or included in result exports. It overrides the server's OpenAI key for this run. Charges apply to your OpenAI account; ChatGPT subscriptions do not include API credits. Clear the key when finished.")
+            configs = [settings.model_a, settings.model_b, settings.fallback]
+            compatible = all(cfg.provider == "openai" for cfg in configs if cfg)
+            if not compatible:
+                st.error("Personal OpenAI keys require Model A, Model B, and any enabled fallback to use the OpenAI provider. Ask the host to update the configuration.")
+            credentials_ready = bool(personal_key) and compatible
+            model_factory = partial(get_model, openai_api_key=personal_key)
+        else:
+            clear_api_key()
+            st.caption("Uses credentials configured by the host. The host's provider account is billed.")
+    else:
+        clear_api_key()
     if results:
         st.success(f"{len(results):,} of {other_count:,} Other comments processed. Open Insights or Review Queue.")
         with st.expander("Start another run"):
@@ -188,12 +213,12 @@ elif page == "Upload & Process":
                 st.session_state.events = []
                 st.session_state.run_meta = {}
                 st.rerun()
-    if st.button("Run classification", type="primary", disabled=bool(results) or other_count == 0):
+    if st.button("Run classification", type="primary", disabled=bool(results) or other_count == 0 or not credentials_ready):
         try:
-            pipeline = Pipeline(settings, demo=mode == "Offline demo")
+            pipeline = Pipeline(settings, demo=mode == "Offline demo", model_factory=model_factory)
             pipeline.preflight()
         except Exception as error:
-            st.error(f"Model setup failed ({type(error).__name__}). Check provider integration, model names and environment API keys. No rows were processed.")
+            st.error(f"Model setup failed ({type(error).__name__}). Check provider integration, model names and the selected API credentials. No rows were processed.")
             st.stop()
         start = time.perf_counter()
         bar = st.progress(0.0, text="Preparing comments…")

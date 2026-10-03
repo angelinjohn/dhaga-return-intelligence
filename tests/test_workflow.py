@@ -1,3 +1,4 @@
+from contextlib import contextmanager
 from copy import deepcopy
 from io import BytesIO
 from pathlib import Path
@@ -6,6 +7,9 @@ import pytest
 from langchain_core.messages import AIMessage
 from langchain_core.runnables import RunnableLambda
 from pydantic import ValidationError
+from langsmith import Client, trace, tracing_context, get_current_run_tree
+from langsmith.utils import tracing_is_enabled
+import src.pipeline as pipeline_module
 
 from src.analytics import final_frame, findings, intelligence
 from src.config import Settings, ModelConfig
@@ -33,6 +37,29 @@ def row():
 def fit(confidence=0.93):
     return Classification(primary_reason="fit", sub_reason="too_small", body_area="chest", confidence=confidence,
                           needs_review=False, evidence_text="chest se tight hai", explanation="Explicit tightness.")
+
+
+def test_personal_keys_are_client_local(monkeypatch):
+    import os
+    import src.models as models
+
+    calls = []
+    monkeypatch.setenv("OPENAI_API_KEY", "host-key")
+    monkeypatch.setattr(models, "init_chat_model", lambda **kwargs: calls.append(kwargs) or object())
+    config = ModelConfig("openai", "gpt-4.1-mini")
+    first = models.get_model(config, openai_api_key=" visitor-one ")
+    second = models.get_model(config, openai_api_key="visitor-two")
+    models.get_model(config)
+    assert first is not second
+    assert calls[0]["api_key"].get_secret_value() == "visitor-one"
+    assert calls[1]["api_key"].get_secret_value() == "visitor-two"
+    assert "visitor-one" not in str(calls[0])
+    assert "api_key" not in calls[2]
+    assert os.environ["OPENAI_API_KEY"] == "host-key"
+    with pytest.raises(ValueError):
+        models.get_model(config, openai_api_key=" ")
+    with pytest.raises(ValueError):
+        models.get_model(ModelConfig("anthropic", "other"), openai_api_key="visitor-one")
 
 
 def test_supplied_workbook_and_csv_match(sample):
@@ -114,6 +141,60 @@ def fake_pipeline(a, b, fallback=None):
                        fallback=ModelConfig("openai", "backup", 0, 5, 6) if fallback is not None else None)
     models = {"cheap": FakeModel(a, seen), "strong": FakeModel(b, seen), "backup": FakeModel(fallback or [], seen)}
     return Pipeline(configs, demo=False, model_factory=lambda cfg, timeout: models[cfg.name]), seen
+
+
+@pytest.mark.parametrize("escalate", [False, True])
+def test_return_trace_sanitizes_payload_and_groups_stages(row, monkeypatch, escalate):
+    captured = []
+    parents = []
+    # LangChain callbacks may post child runs even with local-only SDK tracing.
+    monkeypatch.setattr(Client, "create_run", lambda *args, **kwargs: None)
+    monkeypatch.setattr(Client, "update_run", lambda *args, **kwargs: None)
+
+    @contextmanager
+    def capture_trace(*args, **kwargs):
+        with trace(*args, **kwargs) as run:
+            captured.append(run)
+            yield run
+
+    monkeypatch.setattr(pipeline_module, "trace", capture_trace)
+    p, _ = fake_pipeline([primary(0.7 if escalate else 0.95), attributes()], [fit()] if escalate else [])
+    original_call = p._call
+
+    def capture_call(*args, **kwargs):
+        parents.append(get_current_run_tree())
+        return original_call(*args, **kwargs)
+
+    monkeypatch.setattr(p, "_call", capture_call)
+    row.update(expected_primary_reason="HIDDEN_CANARY", secret_extra="PRIVATE_CANARY")
+    with tracing_context(enabled="local"):
+        result = p.process(row)
+    root = captured[0]
+    assert root.name == "classify_return"
+    assert root.inputs == model_input(row)
+    assert root.outputs["automated_status"] == result["status"]
+    assert root.outputs["escalated"] == escalate
+    assert root.metadata["run_id"] == p.run_id
+    assert len(parents) == (3 if escalate else 2)
+    assert all(parent is not None and parent.trace_id == root.trace_id for parent in parents)
+    serialized = str(root.inputs) + str(root.outputs) + str(root.metadata)
+    assert "HIDDEN_CANARY" not in serialized and "PRIVATE_CANARY" not in serialized
+    assert "sku" not in root.inputs and "sku" not in root.outputs
+
+
+def test_offline_demo_disables_tracing(row, monkeypatch):
+    p = Pipeline(demo=True)
+    original_process = p._process
+    enabled = []
+
+    def capture_process(row):
+        enabled.append(tracing_is_enabled())
+        return original_process(row)
+
+    monkeypatch.setattr(p, "_process", capture_process)
+    with tracing_context(enabled="local"):
+        assert p.process(row)["status"] == "CLASSIFIED_MODEL_A"
+    assert enabled == [False]
 
 
 def test_live_chain_primary_then_extraction_without_labels(row):

@@ -43,7 +43,9 @@ The offline demo uses a small keyword classifier to exercise the application. It
 
 ## Live models
 
-Set `OPENAI_API_KEY` in `.env`, then select **Live models** in the app. The default two distinct models are `openai:gpt-4.1-mini` for bulk calls and `openai:gpt-4.1` for difficult cases. These are configurable starting choices: the mini tier is intended to minimize bulk cost, while the stronger tier is reserved for uncertain records. Quality, cost and latency must be measured on an actual live run; none is claimed from offline results.
+Select **Live models → Use my OpenAI API key** and paste your key into the masked field. This also works on the deployed site without a server OpenAI key. The key is used only by your session's model clients, is not written to disk or included in results/exports, and can be removed with **Clear API key**. Switching to offline mode or server credentials also clears it. Your OpenAI API account is billed; a ChatGPT subscription does not include API credits. Use only trusted HTTPS deployments because the application server receives the key in memory. All configured models, including an optional fallback, must use OpenAI in personal-key mode.
+
+Alternatively, set `OPENAI_API_KEY` in `.env` (or deployment secrets), then select **Live models → Use server credentials** for host-funded processing. The default two distinct models are `openai:gpt-4.1-mini` for bulk calls and `openai:gpt-4.1` for difficult cases. These are configurable starting choices: the mini tier is intended to minimize bulk cost, while the stronger tier is reserved for uncertain records. Quality, cost and latency must be measured on an actual live run; none is claimed from offline results.
 
 `MODEL_A_PROVIDER` / `MODEL_A_NAME` and `MODEL_B_PROVIDER` / `MODEL_B_NAME` are independent. The factory uses LangChain `init_chat_model`. The base requirements include only the OpenAI integration. To use another supported provider, install its integration and add it to the deployment requirements, for example `langchain-anthropic` or `langchain-google-genai`, set its API key in the environment, and choose the corresponding LangChain provider identifier. Temperature is explicit for both roles; select models that support the configured temperature and structured output.
 
@@ -82,6 +84,24 @@ The client brief's 31% overall return rate is a contextual fact. This file conta
 Data and review changes live in one Streamlit browser session. Export before closing/reloading the session; this is not a persistent production database. JSON preserves full source strings and audit data. CSV exports prefix spreadsheet-formula-like text with an apostrophe to avoid spreadsheet formula execution. Uploaded files are not written to disk by the app. API errors log class names, not provider error bodies or secrets.
 
 LangSmith is optional: set `LANGSMITH_TRACING=true`, `LANGSMITH_API_KEY`, and `LANGSMITH_PROJECT`. Traces contain synthetic comments and sanitized inference payloads, not evaluation labels. Local call logs are available without tracing. Before using real customer data, define retention, PII handling, authentication and access controls. Those production features are outside this synthetic MVP.
+
+## LangSmith tracing
+
+The upstream LangSmith skills are installed in `.agents/skills/`, with their installation recorded in `skills-lock.json`. The `langsmith-trace` skill guides this integration.
+
+To enable application tracing, set these values in your local `.env` (never commit real keys):
+
+```dotenv
+LANGSMITH_TRACING=true
+LANGSMITH_API_KEY=your-langsmith-api-key
+LANGSMITH_PROJECT=dhaga-return-intelligence
+```
+
+Restart the app, select **Live models**, and process a batch. In that LangSmith project, each processed return has a `classify_return` parent trace containing the LangChain stages, retries, and any Model B escalation or technical fallback. Metadata includes the batch run ID, return ID, model identities, and thresholds. The root output records the automated prediction, routing outcome, and operational counters; a handled processing failure is visible in `automated_status`, even when the parent trace completes normally.
+
+Root inputs are limited to comment text and dropdown context; root outputs are explicitly allowlisted. Evaluation labels and unrelated source columns are not included. Tracing still sends comments, prompts, model responses, and nested call errors to LangSmith: this is not PII redaction. Review data-sharing and retention requirements before using real customer data. Offline demo processing disables tracing even when the environment enables it. With tracing disabled, local call logs remain available.
+
+This instruments the application's classification pipeline, not the coding agent inside Zed. Live trace delivery requires valid credentials and network access.
 
 ## Tests
 

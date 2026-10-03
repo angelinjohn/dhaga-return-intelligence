@@ -10,7 +10,9 @@ Repository: [angelinjohn/dhaga-return-intelligence](https://github.com/angelinjo
 4. Under **Advanced settings**, select Python **3.12**. The offline demo requires no secrets.
 5. Deploy. Open the returned `streamlit.app` URL in a fresh browser session, run the sample, inspect Insights, and resolve an item in Review Queue.
 
-For live models, add top-level TOML values under Cloud app settings → Secrets. Do not paste `.env` syntax or put API keys into Git:
+Visitors can select **Live models → Use my OpenAI API key** and paste their own key into the masked field. This works on the deployed site without a host OpenAI key. Model A, Model B, and any enabled fallback must use the OpenAI provider. Keys are passed directly to per-run clients, never shared through environment variables or written to disk. Visitors can clear the key explicitly; switching to offline mode or server credentials also clears the input. Use HTTPS and only invite users to enter keys into a deployment they trust: the server necessarily receives the key in memory, and requests are billed to the visitor's OpenAI account.
+
+For host-funded live runs, users can select **Use server credentials**. Configure top-level TOML values under Cloud app settings → Secrets. The `OPENAI_API_KEY` below is optional when all visitors bring their own keys. Do not paste `.env` syntax or put API keys into Git:
 
 ```toml
 OPENAI_API_KEY = "YOUR_KEY"
